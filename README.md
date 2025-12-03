@@ -1,6 +1,6 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=transparent&color=gradient&customColorList=0,2,3,5,6,8,10,12,14,16,18,20&text=Trương%20Văn%20Ý&fontSize=60&fontColor=gradient&animation=twinkling" />
-</div>
+<img src="https://capsule-render.vercel.app/api?type=transparent&color=0:FF0000,20:FF7F00,40:FFFF00,60:00FF00,80:0000FF,100:9400D3&text=Trương%20Văn%20Ý&fontSize=60&animation=fadeIn" />
+
 
 ###  `Fullstack Developer`  • `AI/ML Engineer` • `IoT Enthusiast`
 

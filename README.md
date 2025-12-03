@@ -1,6 +1,9 @@
 <div align="center">
-🌈 Trương Văn Ý
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&multiline=false&repeat=true&width=435&lines=Trương+Văn+Ý" alt="Typing SVG" />
+
+# 🌈 Trương Văn Ý
+
+<!-- Text đổi màu liên tục với rainbow animation -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=2000&pause=500&color=FF0000,FF7F00,FFFF00,00FF00,0000FF,4B0082,9400D3&center=true&vCenter=true&multiline=false&repeat=true&width=500&lines=Trương+Văn+Ý;Trương+Văn+Ý;Trương+Văn+Ý" alt="Rainbow Text" />
 
 ###  `Fullstack Developer`  • `AI/ML Engineer` • `IoT Enthusiast` 
 

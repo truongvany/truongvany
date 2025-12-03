@@ -1,9 +1,24 @@
 <div align="center">
 
-# 🌈 Trương Văn Ý
+<svg width="400" height="80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rainbow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,0,0)">
+        <animate attributeName="stop-color" values="red;orange;yellow;green;blue;indigo;violet;red" dur="3s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" style="stop-color:rgb(0,255,0)">
+        <animate attributeName="stop-color" values="green;blue;indigo;violet;red;orange;yellow;green" dur="3s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" style="stop-color:rgb(0,0,255)">
+        <animate attributeName="stop-color" values="blue;indigo;violet;red;orange;yellow;green;blue" dur="3s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+  </defs>
+  <text x="50%" y="50%" font-family="Fira Code, monospace" font-size="42" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="url(#rainbow)">
+    Trương Văn Ý
+  </text>
+</svg>
 
-<!-- Text đổi màu liên tục với rainbow animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=2000&pause=500&color=FF0000,FF7F00,FFFF00,00FF00,0000FF,4B0082,9400D3&center=true&vCenter=true&multiline=false&repeat=true&width=500&lines=Trương+Văn+Ý;Trương+Văn+Ý;Trương+Văn+Ý" alt="Rainbow Text" />
 
 ###  `Fullstack Developer`  • `AI/ML Engineer` • `IoT Enthusiast` 
 

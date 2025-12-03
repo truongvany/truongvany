@@ -5,9 +5,23 @@
 </p>
 
 <p align="center">
-  <img src="a1.jpg" alt="Trương Văn Ý 1" width="320" />
-  <img src="https://github.com/truongvany/truongvany/blob/main/a2.jpg" alt="Trương Văn Ý 2" width="320" />
+  <div style="
+    display: inline-block;
+    padding: 16px 24px;
+    border-radius: 18px;
+    border: 1px solid #e5e7eb;
+    background: #ffffff;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  ">
+    <img src="LINK_ANH_1"
+         alt="Giấy khen 1"
+         style="height: 180px; margin: 0 10px; border-radius: 10px;" />
+    <img src="LINK_ANH_2"
+         alt="Giấy khen 2"
+         style="height: 180px; margin: 0 10px; border-radius: 10px;" />
+  </div>
 </p>
+
 
 
 

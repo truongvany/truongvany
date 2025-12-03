@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg width="800" height="220" viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Gradient cho chữ Trương Văn Ý -->
@@ -7,12 +8,12 @@
       <stop offset="100%" stop-color="#8000ff" />
     </linearGradient>
   </defs>
-  
+
   <!-- Nền trong suốt -->
   <rect x="0" y="0" width="800" height="220" fill="transparent" />
-  
+
   <!-- Tên -->
-  <text x="50%" y="70"
+  <text x="50%" y="80"
         dominant-baseline="middle"
         text-anchor="middle"
         font-family="'Fira Code','JetBrains Mono','Segoe UI',sans-serif"
@@ -21,99 +22,42 @@
         fill="url(#nameGradient)">
     Trương Văn Ý
   </text>
-  
-  <!-- Bong bóng 1 - Đỏ -->
+
+  <!-- Bong bóng 1 -->
   <g>
-    <circle cx="120" cy="145" r="15" fill="#ff6b6b" />
-    <line x1="120" y1="160" x2="120" y2="195" stroke="#555" stroke-width="1.2" />
-    <animate attributeName="transform"
-             type="translate"
-             values="0,35; 0,-35; 0,35"
-             dur="4.5s"
-             repeatCount="indefinite" />
+    <circle cx="260" cy="150" r="16" fill="#ff6b6b" />
+    <line x1="260" y1="166" x2="260" y2="200" stroke="#555" stroke-width="1.2" />
+    <animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      values="0,40; 0,-40; 0,40"
+                      dur="5s"
+                      repeatCount="indefinite" />
   </g>
-  
-  <!-- Bong bóng 2 - Cam -->
+
+  <!-- Bong bóng 2 -->
   <g>
-    <circle cx="200" cy="150" r="18" fill="#ff8c42" />
-    <line x1="200" y1="168" x2="200" y2="208" stroke="#555" stroke-width="1.2" />
-    <animate attributeName="transform"
-             type="translate"
-             values="0,40; 0,-40; 0,40"
-             dur="5s"
-             begin="0.5s"
-             repeatCount="indefinite" />
+    <circle cx="400" cy="155" r="18" fill="#ffd166" />
+    <line x1="400" y1="173" x2="400" y2="210" stroke="#555" stroke-width="1.2" />
+    <animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      values="0,45; 0,-35; 0,45"
+                      dur="5.5s"
+                      begin="0.8s"
+                      repeatCount="indefinite" />
   </g>
-  
-  <!-- Bong bóng 3 - Vàng -->
+
+  <!-- Bong bóng 3 -->
   <g>
-    <circle cx="280" cy="148" r="16" fill="#ffd166" />
-    <line x1="280" y1="164" x2="280" y2="200" stroke="#555" stroke-width="1.2" />
-    <animate attributeName="transform"
-             type="translate"
-             values="0,38; 0,-42; 0,38"
-             dur="5.2s"
-             begin="1s"
-             repeatCount="indefinite" />
-  </g>
-  
-  <!-- Bong bóng 4 - Xanh lá -->
-  <g>
-    <circle cx="360" cy="152" r="17" fill="#06ffa5" />
-    <line x1="360" y1="169" x2="360" y2="207" stroke="#555" stroke-width="1.2" />
-    <animate attributeName="transform"
-             type="translate"
-             values="0,42; 0,-38; 0,42"
-             dur="4.8s"
-             begin="1.5s"
-             repeatCount="indefinite" />
-  </g>
-  
-  <!-- Bong bóng 5 - Xanh dương nhạt -->
-  <g>
-    <circle cx="440" cy="147" r="19" fill="#4ecdc4" />
-    <line x1="440" y1="166" x2="440" y2="210" stroke="#555" stroke-width="1.2" />
-    <animate attributeName="transform"
-             type="translate"
-             values="0,45; 0,-35; 0,45"
-             dur="5.5s"
-             begin="0.8s"
-             repeatCount="indefinite" />
-  </g>
-  
-  <!-- Bong bóng 6 - Xanh dương -->
-  <g>
-    <circle cx="520" cy="150" r="16" fill="#1e90ff" />
-    <line x1="520" y1="166" x2="520" y2="202" stroke="#555" stroke-width="1.2" />
-    <animate attributeName="transform"
-             type="translate"
-             values="0,40; 0,-40; 0,40"
-             dur="5.3s"
-             begin="1.2s"
-             repeatCount="indefinite" />
-  </g>
-  
-  <!-- Bong bóng 7 - Tím -->
-  <g>
-    <circle cx="600" cy="149" r="17" fill="#9b59b6" />
-    <line x1="600" y1="166" x2="600" y2="204" stroke="#555" stroke-width="1.2" />
-    <animate attributeName="transform"
-             type="translate"
-             values="0,37; 0,-43; 0,37"
-             dur="4.7s"
-             begin="1.8s"
-             repeatCount="indefinite" />
-  </g>
-  
-  <!-- Bong bóng 8 - Hồng -->
-  <g>
-    <circle cx="680" cy="151" r="18" fill="#ff69b4" />
-    <line x1="680" y1="169" x2="680" y2="209" stroke="#555" stroke-width="1.2" />
-    <animate attributeName="transform"
-             type="translate"
-             values="0,43; 0,-37; 0,43"
-             dur="5.1s"
-             begin="0.3s"
-             repeatCount="indefinite" />
+    <circle cx="540" cy="150" r="16" fill="#4ecdc4" />
+    <line x1="540" y1="166" x2="540" y2="200" stroke="#555" stroke-width="1.2" />
+    <animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      values="0,42; 0,-38; 0,42"
+                      dur="6s"
+                      begin="1.4s"
+                      repeatCount="indefinite" />
   </g>
 </svg>

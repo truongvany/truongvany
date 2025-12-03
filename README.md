@@ -3,7 +3,9 @@
   <p align="center">
   <img src="./truongvany-rainbow.svg" alt="Trương Văn Ý " />
   </p>
+  
   ### `< Fullstack Developer />` • `AI/ML Engineer` • `IoT Enthusiast`
+    
   <!-- Khung 2 giấy khen -->
   <table align="center" border="1" cellpadding="12" cellspacing="0">
     <tr>

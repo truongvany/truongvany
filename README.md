@@ -13,10 +13,10 @@
     background: #ffffff;
     box-shadow: 0 6px 16px rgba(0,0,0,0.08);
   ">
-    <img src="LINK_ANH_1"
+    <img src="a1.jpg"
          alt="Giấy khen 1"
          style="height: 180px; margin: 0 10px; border-radius: 10px;" />
-    <img src="LINK_ANH_2"
+    <img src="a2.jpg"
          alt="Giấy khen 2"
          style="height: 180px; margin: 0 10px; border-radius: 10px;" />
   </div>

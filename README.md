@@ -2,9 +2,9 @@
 
 #  TRƯƠNG VĂN Ý
 
-### `< Atomic Y />` • `Fullstack Developer`  • `AI/ML Engineer` • `IoT Enthusiast` 
+###  `Fullstack Developer`  • `AI/ML Engineer` • `IoT Enthusiast` 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Building+Smart+Systems+%F0%9F%A7%A0;Web+%2B+AI+%2B+IoT+Integration+%E2%9A%A1;From+Ideas+to+Real+Products+%F0%9F%9A%80;Always+Learning+%26+Creating+%F0%9F%94%A5)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Atomic+Y+%F0%9F%A7%A0;Building+Smart+Systems+%F0%9F%A7%A0;Web+%2B+AI+%2B+IoT+Integration+%E2%9A%A1;From+Ideas+to+Real+Products+%F0%9F%9A%80;Always+Learning+%26+Creating+%F0%9F%94%A5)](https://git.io/typing-svg)
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 

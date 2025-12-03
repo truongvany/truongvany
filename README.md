@@ -4,6 +4,11 @@
   <img src="./truongvany-rainbow.svg" alt="Trương Văn Ý" />
 </p>
 
+<p align="center">
+  <img src="LINK_ẢNH_1" alt="Trương Văn Ý 1" width="320" />
+  <img src="LINK_ẢNH_2" alt="Trương Văn Ý 2" width="320" />
+</p>
+
 
 
 ###  `Fullstack Developer`  • `AI/ML Engineer` • `IoT Enthusiast`

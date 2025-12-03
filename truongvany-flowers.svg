@@ -435,6 +435,71 @@
                       values="-4 610 189; 3 610 189; -4 610 189"
                       dur="2.9s" begin="0.5s" repeatCount="indefinite" />
   </g>
-</svg>
+  <!-- Hoa 5 - Tím mộng mơ (giữa trái) -->
+  <g>
+    <ellipse cx="360" cy="190" rx="6" ry="8.5" fill="#9C27B0" opacity="0.95" transform="rotate(-28 360 190)"/>
+    <ellipse cx="372" cy="190" rx="6" ry="8.5" fill="#9C27B0" opacity="0.95" transform="rotate(28 372 190)"/>
+    <ellipse cx="360" cy="200" rx="6" ry="8.5" fill="#BA68C8" opacity="0.95" transform="rotate(-72 360 200)"/>
+    <ellipse cx="372" cy="200" rx="6" ry="8.5" fill="#BA68C8" opacity="0.95" transform="rotate(72 372 200)"/>
+    <ellipse cx="366" cy="195" rx="7" ry="9.5" fill="#8E24AA" opacity="0.95"/>
+    <circle cx="366" cy="195" r="3.5" fill="#E1BEE7">
+      <animate attributeName="r" values="3;4.2;3" dur="2.3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="366" cy="195" r="2" fill="#F3E5F5"/>
+    <path d="M 366 195 Q 365 210 364 240" stroke="#66BB6A" stroke-width="2.3" fill="none"/>
+    <animateTransform attributeName="transform" type="rotate"
+                      values="-4 366 195; 4 366 195; -4 366 195"
+                      dur="3.2s" begin="0.3s" repeatCount="indefinite" />
+  </g>
 
-  
+  <!-- Hoa 6 - Xanh dương lãng mạn (giữa) -->
+  <g>
+    <ellipse cx="460" cy="188" rx="5.8" ry="8" fill="#2196F3" opacity="0.95" transform="rotate(-25 460 188)"/>
+    <ellipse cx="470" cy="188" rx="5.8" ry="8" fill="#2196F3" opacity="0.95" transform="rotate(25 470 188)"/>
+    <ellipse cx="460" cy="197" rx="5.8" ry="8" fill="#64B5F6" opacity="0.95" transform="rotate(-70 460 197)"/>
+    <ellipse cx="470" cy="197" rx="5.8" ry="8" fill="#64B5F6" opacity="0.95" transform="rotate(70 470 197)"/>
+    <ellipse cx="465" cy="192.5" rx="6.8" ry="9" fill="#1976D2" opacity="0.95"/>
+    <circle cx="465" cy="192.5" r="3.3" fill="#BBDEFB">
+      <animate attributeName="r" values="2.8;4;2.8" dur="2.1s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="465" cy="192.5" r="1.8" fill="#E3F2FD"/>
+    <path d="M 465 192.5 Q 464 208 463 240" stroke="#4CAF50" stroke-width="2.2" fill="none"/>
+    <animateTransform attributeName="transform" type="rotate"
+                      values="3 465 192.5; -3 465 192.5; 3 465 192.5"
+                      dur="3s" begin="0.6s" repeatCount="indefinite" />
+  </g>
+
+  <!-- Hoa 7 - Trắng tinh khôi ánh bạc (giữa phải) -->
+  <g>
+    <ellipse cx="560" cy="192" rx="6.2" ry="8.8" fill="#E0E0E0" opacity="0.92" transform="rotate(-30 560 192)"/>
+    <ellipse cx="570" cy="192" rx="6.2" ry="8.8" fill="#E0E0E0" opacity="0.92" transform="rotate(30 570 192)"/>
+    <ellipse cx="560" cy="202" rx="6.2" ry="8.8" fill="#F5F5F5" opacity="0.92" transform="rotate(-75 560 202)"/>
+    <ellipse cx="570" cy="202" rx="6.2" ry="8.8" fill="#F5F5F5" opacity="0.92" transform="rotate(75 570 202)"/>
+    <ellipse cx="565" cy="197" rx="7.2" ry="10" fill="#FFFFFF" opacity="0.95"/>
+    <circle cx="565" cy="197" r="3.8" fill="#E8EAF6">
+      <animate attributeName="r" values="3.3;4.5;3.3" dur="2.4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="565" cy="197" r="2.2" fill="#CFD8DC"/>
+    <path d="M 565 197 Q 564 212 563 240" stroke="#81C784" stroke-width="2.4" fill="none"/>
+    <animateTransform attributeName="transform" type="rotate"
+                      values="-5 565 197; 5 565 197; -5 565 197"
+                      dur="3.4s" begin="0.2s" repeatCount="indefinite" />
+  </g>
+
+  <!-- Hoa 8 - Xanh lá ngọc lục bảo (phải) -->
+  <g>
+    <ellipse cx="700" cy="189" rx="6" ry="8.5" fill="#00BCD4" opacity="0.95" transform="rotate(-26 700 189)"/>
+    <ellipse cx="710" cy="189" rx="6" ry="8.5" fill="#00BCD4" opacity="0.95" transform="rotate(26 710 189)"/>
+    <ellipse cx="700" cy="198" rx="6" ry="8.5" fill="#4DD0E1" opacity="0.95" transform="rotate(-68 700 198)"/>
+    <ellipse cx="710" cy="198" rx="6" ry="8.5" fill="#4DD0E1" opacity="0.95" transform="rotate(68 710 198)"/>
+    <ellipse cx="705" cy="193.5" rx="7" ry="9.5" fill="#0097A7" opacity="0.95"/>
+    <circle cx="705" cy="193.5" r="3.6" fill="#B2EBF2">
+      <animate attributeName="r" values="3;4.3;3" dur="2.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="705" cy="193.5" r="2" fill="#E0F7FA"/>
+    <path d="M 705 193.5 Q 704 209 703 240" stroke="#66BB6A" stroke-width="2.5" fill="none"/>
+    <animateTransform attributeName="transform" type="rotate"
+                      values="4 705 193.5; -4 705 193.5; 4 705 193.5"
+                      dur="3.1s" begin="0.8s" repeatCount="indefinite" />
+  </g>
+</svg>

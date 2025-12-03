@@ -1,33 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="800" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="220" viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="rainbow">
-      <stop offset="0%" stop-color="#FF0000">
-        <animate attributeName="stop-color"
-                 values="#FF0000;#FF7F00;#FFFF00;#00FF00;#0000FF;#9400D3;#FF0000"
-                 dur="6s"
-                 repeatCount="indefinite" />
-      </stop>
-      <stop offset="100%" stop-color="#9400D3">
-        <animate attributeName="stop-color"
-                 values="#9400D3;#0000FF;#00FF00;#FFFF00;#FF7F00;#FF0000;#9400D3"
-                 dur="6s"
-                 repeatCount="indefinite" />
-      </stop>
+    <!-- Gradient cho chữ Trương Văn Ý -->
+    <linearGradient id="nameGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0000" />
+      <stop offset="50%" stop-color="#ff00ff" />
+      <stop offset="100%" stop-color="#8000ff" />
     </linearGradient>
   </defs>
 
   <!-- Nền trong suốt -->
-  <rect x="0" y="0" width="800" height="120" fill="transparent" />
+  <rect x="0" y="0" width="800" height="220" fill="transparent" />
 
-  <!-- Tên Trương Văn Ý -->
-  <text x="50%" y="50%"
+  <!-- Tên -->
+  <text x="50%" y="80"
         dominant-baseline="middle"
         text-anchor="middle"
-        font-family="'Fira Code', 'JetBrains Mono', 'Segoe UI', sans-serif"
+        font-family="'Fira Code','JetBrains Mono','Segoe UI',sans-serif"
         font-size="48"
         font-weight="700"
-        fill="url(#rainbow)">
+        fill="url(#nameGradient)">
     Trương Văn Ý
   </text>
+
+  <!-- Bong bóng 1 -->
+  <g>
+    <circle cx="260" cy="150" r="16" fill="#ff6b6b" />
+    <line x1="260" y1="166" x2="260" y2="200" stroke="#555" stroke-width="1.2" />
+    <animate attributeName="transform"
+             type="translate"
+             values="0,40; 0,-40; 0,40"
+             dur="5s"
+             repeatCount="indefinite" />
+  </g>
+
+  <!-- Bong bóng 2 -->
+  <g>
+    <circle cx="400" cy="155" r="18" fill="#ffd166" />
+    <line x1="400" y1="173" x2="400" y2="210" stroke="#555" stroke-width="1.2" />
+    <animate attributeName="transform"
+             type="translate"
+             values="0,45; 0,-35; 0,45"
+             dur="5.5s"
+             begin="0.8s"
+             repeatCount="indefinite" />
+  </g>
+
+  <!-- Bong bóng 3 -->
+  <g>
+    <circle cx="540" cy="150" r="16" fill="#4ecdc4" />
+    <line x1="540" y1="166" x2="540" y2="200" stroke="#555" stroke-width="1.2" />
+    <animate attributeName="transform"
+             type="translate"
+             values="0,42; 0,-38; 0,42"
+             dur="6s"
+             begin="1.4s"
+             repeatCount="indefinite" />
+  </g>
 </svg>

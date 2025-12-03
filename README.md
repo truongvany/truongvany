@@ -1,26 +1,9 @@
 <div align="center">
 
-<svg width="400" height="80" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="rainbow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:rgb(255,0,0)">
-        <animate attributeName="stop-color" values="red;orange;yellow;green;blue;indigo;violet;red" dur="3s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="50%" style="stop-color:rgb(0,255,0)">
-        <animate attributeName="stop-color" values="green;blue;indigo;violet;red;orange;yellow;green" dur="3s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="100%" style="stop-color:rgb(0,0,255)">
-        <animate attributeName="stop-color" values="blue;indigo;violet;red;orange;yellow;green;blue" dur="3s" repeatCount="indefinite" />
-      </stop>
-    </linearGradient>
-  </defs>
-  <text x="50%" y="50%" font-family="Fira Code, monospace" font-size="42" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="url(#rainbow)">
-    Trương Văn Ý
-  </text>
-</svg>
+<!-- Text đổi màu với Capsule Render -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5,6,8,10,12,14,16,18,20&text=Trương%20Văn%20Ý&height=150&fontSize=50&fontAlignY=40&animation=twinkling" />
 
-
-###  `Fullstack Developer`  • `AI/ML Engineer` • `IoT Enthusiast` 
+###  `Fullstack Developer`  • `AI/ML Engineer` • `IoT Enthusiast`
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Atomic+Y+%F0%9F%A7%A0;Building+Smart+Systems+%F0%9F%A7%A0;Web+%2B+AI+%2B+IoT+Integration+%E2%9A%A1;From+Ideas+to+Real+Products+%F0%9F%9A%80;Always+Learning+%26+Creating+%F0%9F%94%A5)](https://git.io/typing-svg)
 

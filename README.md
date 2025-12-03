@@ -164,21 +164,17 @@ Thùng rác thông minh với cảm biến
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=truongvany&theme=tokyonight&hide_border=true&background=0D1117" alt="truongvany's streak"/>
 </div>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=truongvany&theme=tokyo-night&hide_border=true&bg_color=0D1117" width="100%"/>
-</div>
-
 ---
 
 ## 💼 WHAT I'M UP TO
 
-• 🎓 **Studying:** Information Technology at UED
-• 🔭 **Currently working on:** HealthAtom Platform, AI Integration, IoT Solutions
-• 🌱 **Learning:** Advanced React Patterns, TensorFlow, Cloud Architecture (AWS/GCP)
-• 👯 **Looking to collaborate on:** Open Source Projects, AI/ML Solutions, IoT Applications
-• 💬 **Ask me about:** Web Dev, API Design, Database Architecture, IoT Systems, AI/ML
-• 📚 **Reading:** Clean Code, Design Patterns, System Design, Machine Learning
-• ⚡ **Fun fact:** I turn coffee ☕ into code 💻 and love building tools that make life easier!
+🎓 **Studying:** Information Technology at UED<br>
+🔭 **Currently working on:** HealthAtom Platform, AI Integration, IoT Solutions<br>
+🌱 **Learning:** Advanced React Patterns, TensorFlow, Cloud Architecture (AWS/GCP)<br>
+👯 **Looking to collaborate on:** Open Source Projects, AI/ML Solutions, IoT Applications<br>
+💬 **Ask me about:** Web Dev, API Design, Database Architecture, IoT Systems, AI/ML<br>
+📚 **Reading:** Clean Code, Design Patterns, System Design, Machine Learning<br>
+⚡ **Fun fact:** I turn coffee ☕ into code 💻 and love building tools that make life easier!
 
 ---
 

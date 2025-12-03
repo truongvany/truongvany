@@ -10,38 +10,26 @@
 
 ---
 
-## 🎯 ABOUT ME
+## 👨‍🎓 ABOUT ME
 
-<div align="center">
+| 📚 Education | 🚀 Technical Skills |
+|---|---|
+| **University of Education - The University of Da Nang (UED)** 🎓 | **Languages:** JavaScript, Python, Java, C/C++, SQL |
+| **Bachelor of Information Technology** | **Frontend:** React, TailwindCSS, Bootstrap, HTML5, CSS3 |
+| 📍 Da Nang, Vietnam | **Backend:** Node.js, Express, REST API, JWT |
+| 🎯 Fullstack Developer & AI/ML Enthusiast | **Database:** MySQL, MongoDB, SQL Server |
+| | **AI/ML:** Python, Scikit-learn, NumPy, Pandas, TensorFlow |
+| 💡 **Core Interests:** | **IoT:** Arduino, ESP8266, ESP32, LED Matrix P10 |
+| • Fullstack Web Development | **Tools:** Git, VS Code, Postman, Figma |
+| • Backend Development & System Architecture | |
+| • Database Management & Optimization | |
+| • Artificial Intelligence & Machine Learning | |
+| • IoT & Embedded Systems | |
+| • Video Processing & Multimedia Solutions | |
 
-```javascript
-const truongvany = {
-  location: "Da Nang, Vietnam 🇻🇳",
-  education: "IT Student @ UED - University of Danang",
-  role: "Fullstack Developer",
-  currentFocus: ["HealthAtom Platform", "AI Integration", "IoT Solutions"],
-  
-  techStack: {
-    frontend: ["React", "TailwindCSS", "Bootstrap"],
-    backend: ["Node.js", "Express", "REST API", "JWT"],
-    database: ["MySQL", "MongoDB", "SQL Server"],
-    ai_ml: ["Python", "Scikit-learn", "NumPy", "Pandas"],
-    iot: ["Arduino", "ESP8266", "ESP32", "LED Matrix P10"],
-    languages: ["JavaScript", "Python", "Java", "C/C++", "SQL"]
-  },
-  
-  askMeAbout: ["Web Dev", "API Design", "Database", "IoT", "AI/ML"],
-  
-  contact: {
-    email: "truongvany1608@gmail.com",
-    github: "@truongvany"
-  },
-  
-  funFact: "I turn coffee ☕ into code 💻"
-};
-```
+💫 Passionate about building robust applications, exploring AI/ML technologies, and developing practical solutions for real-world problems
 
-</div>
+---
 
 ---
 
@@ -182,15 +170,30 @@ Thùng rác thông minh với cảm biến
 
 ---
 
-## 🐍 CONTRIBUTION SNAKE
+## 💼 WHAT I'M UP TO
+
+• 🎓 **Studying:** Information Technology at University of Education - Da Nang (UED)
+• 🔭 **Currently working on:** HealthAtom Platform, AI Integration, IoT Solutions
+• 🌱 **Learning:** Advanced React Patterns, Deep Learning with TensorFlow, Cloud Architecture (AWS/GCP)
+• 👯 **Looking to collaborate on:** Open Source Projects, AI/ML Solutions, IoT Applications
+• 💬 **Ask me about:** Web Development, API Design, Database Architecture, IoT Systems, AI/ML
+• 📚 **Reading:** Clean Code, Design Patterns, System Design, Machine Learning
+• ⚡ **Fun fact:** I turn coffee ☕ into code 💻 and love building tools that make life easier!
+
+---
+
+## 📈 CONTRIBUTION ACTIVITY
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=truongvany&theme=tokyo-night&hide_border=true&bg_color=0D1117" width="100%"/>
+</div>
 
 <div align="center">
   <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/truongvany/truongvany/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/truongvany/truongvany/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/truongvany/truongvany/output/github-contribution-grid-snake.svg">
-</picture>
-
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/truongvany/truongvany/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/truongvany/truongvany/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/truongvany/truongvany/output/github-contribution-grid-snake.svg">
+  </picture>
 </div>
 
 ---
@@ -246,10 +249,10 @@ Thùng rác thông minh với cảm biến
 
 ---
 
-<img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
 
-### ⚡ *"Code is like humor. When you have to explain it, it's bad."* – Cory House
+⭐️ From [truongvany](https://github.com/truongvany) | Made with ❤️ and ☕
 
-**Thanks for visiting! Let's build something amazing together! 🚀**
+🎓 Information Technology Student @ UED - Da Nang
 
 </div>

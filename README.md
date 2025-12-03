@@ -1,218 +1,253 @@
-<!-- Banner -->
-<h1 align="center">🔥 Trương Văn Ý 🔥</h1>
-<h3 align="center">Fullstack Developer • AI/ML • IoT & Embedded Systems</h3>
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=22&center=true&vCenter=true&width=600&lines=Creating+smart+systems+with+Web+%2B+AI+%2B+IoT;Fullstack+NodeJS+%7C+React+%7C+SQL;Turning+ideas+into+real+products;HealthAtom+%26+Haircut+Booking+System;Welcome+to+my+GitHub+🔥" />
-</p>
+# 🚀 TRƯƠNG VĂN Ý
 
----
+### `< Fullstack Developer />` • `AI/ML Engineer` • `IoT Enthusiast`
 
-## 🚀 About Me
-- 🎓 IT Student @ UED – University of Danang  
-- 💻 Fullstack Developer: **NodeJS • ReactJS • SQL**  
-- 🤖 Interested in **AI/ML (Python, Scikit-learn)**  
-- 📡 IoT Builder: **Arduino, ESP8266, ESP32, LED Matrix P10**  
-- 🔥 Currently building: **HealthAtom** & **Haircut Booking System**  
-- 💬 Ask me about **Web Dev, API, Database, IoT, AI/ML**  
-- 📫 Gmail: **truongvany1608@gmail.com**
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Building+Smart+Systems+%F0%9F%A7%A0;Web+%2B+AI+%2B+IoT+Integration+%E2%9A%A1;From+Ideas+to+Real+Products+%F0%9F%9A%80;Always+Learning+%26+Creating+%F0%9F%94%A5)](https://git.io/typing-svg)
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 
 ---
 
-## 🧠 Tech Stack
+## 🎯 ABOUT ME
 
-### 🔹 Languages  
-`C/C++` `Java` `JavaScript` `Python` `SQL`
-
-### 🔹 Frontend  
-`ReactJS` `HTML` `CSS` `TailwindCSS` `Bootstrap`
-
-### 🔹 Backend  
-`NodeJS` `ExpressJS` `REST API` `JWT` `bcryptjs`
-
-### 🔹 Databases  
-`MySQL` `SQL Server` `MongoDB`
-
-### 🔹 AI/ML  
-`NumPy` `Pandas` `Matplotlib` `KNN` `Naive Bayes` `PCA`
-
-### 🔹 IoT & Embedded  
-`Arduino` `ESP8266` `ESP32` `P10 LED Matrix` `Sensors`
-
----
-
-## ⚡ Featured Projects
-
-### 🔥 **HealthAtom – Telemedicine Platform**
-> NodeJS • React • MySQL • JWT • AI Integration  
-🔗 *Updating…*
-
-### 💈 **Haircut Booking System**
-> Fullstack: React + NodeJS + Express + MySQL  
-🔗 https://github.com/truongvany/haircut
-
-### ❤️ **Love-letter App**
-<!-- Banner -->
-<h1 align="center">🔥 Trương Văn Ý 🔥</h1>
-<h3 align="center">Fullstack Developer • AI/ML • IoT & Embedded Systems</h3>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=22&center=true&vCenter=true&width=600&lines=Creating+smart+systems+with+Web+%2B+AI+%2B+IoT;Fullstack+NodeJS+%7C+React+%7C+SQL;Turning+ideas+into+real+products;HealthAtom+%26+Haircut+Booking+System;Welcome+to+my+GitHub+🔥" />
-</p>
+```typescript
+const truongvany = {
+    location: "Da Nang, Vietnam 🇻🇳",
+    education: "IT Student @ UED - University of Danang",
+    role: "Fullstack Developer",
+    currentFocus: ["HealthAtom Platform", "AI Integration", "IoT Solutions"],
+    
+    techStack: {
+        frontend: ["React", "TailwindCSS", "Bootstrap"],
+        backend: ["Node.js", "Express", "REST API", "JWT"],
+        database: ["MySQL", "MongoDB", "SQL Server"],
+        ai_ml: ["Python", "Scikit-learn", "NumPy", "Pandas"],
+        iot: ["Arduino", "ESP8266", "ESP32", "LED Matrix P10"],
+        languages: ["JavaScript", "Python", "Java", "C/C++", "SQL"]
+    },
+    
+    askMeAbout: ["Web Dev", "API Design", "Database", "IoT", "AI/ML"],
+    
+    contact: {
+        email: "truongvany1608@gmail.com",
+        github: "@truongvany"
+    },
+    
+    funFact: "I turn coffee ☕ into code 💻"
+};
+```
 
 ---
 
-## 🚀 About Me
-- 🎓 IT Student @ UED – University of Danang  
-- 💻 Fullstack Developer: **NodeJS • ReactJS • SQL**  
-- 🤖 Interested in **AI/ML (Python, Scikit-learn)**  
-- 📡 IoT Builder: **Arduino, ESP8266, ESP32, LED Matrix P10**  
-- 🔥 Currently building: **HealthAtom** & **Haircut Booking System**  
-- 💬 Ask me about **Web Dev, API, Database, IoT, AI/ML**  
-- 📫 Gmail: **truongvany1608@gmail.com**
-
----
-
-## 🧠 Tech Stack
-
-### 🔹 Languages  
-`C/C++` `Java` `JavaScript` `Python` `SQL`
-
-### 🔹 Frontend  
-`ReactJS` `HTML` `CSS` `TailwindCSS` `Bootstrap`
-
-### 🔹 Backend  
-`NodeJS` `ExpressJS` `REST API` `JWT` `bcryptjs`
-
-### 🔹 Databases  
-`MySQL` `SQL Server` `MongoDB`
-
-### 🔹 AI/ML  
-`NumPy` `Pandas` `Matplotlib` `KNN` `Naive Bayes` `PCA`
-
-### 🔹 IoT & Embedded  
-`Arduino` `ESP8266` `ESP32` `P10 LED Matrix` `Sensors`
-
----
-
-## ⚡ Featured Projects
-
-### 🔥 **HealthAtom – Telemedicine Platform**
-> NodeJS • React • MySQL • JWT • AI Integration  
-🔗 *Updating…*
-
-### 💈 **Haircut Booking System**
-> Fullstack: React + NodeJS + Express + MySQL  
-🔗 https://github.com/truongvany/haircut
-
-### ❤️ **Love-letter App**
-> Romantic UI • CSS animations • Sound effect  
-🔗 *Updating…*
-
-### ♻️ **Smart Trash Bin (IoT)**
-> ESP8266 + ultrasonic sensor + LED + Firebase  
-🔗 *Updating…*
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=truongvany&show_icons=true&theme=tokyonight"/>
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=truongvany&theme=tokyonight"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=truongvany&layout=compact&theme=tokyonight"/>
-</p>
-
----
-
-## 🐍 Commit Snake — animation trực tiếp trong README
+## 🛠️ TECH ARSENAL
 
 <div align="center">
-  <!-- Inline SVG: a simple 'snake' made of circles that moves across the area
-       and each segment undulates. Uses SMIL (animate/animateTransform) only. -->
-  <svg width="680" height="140" viewBox="0 0 680 140" xmlns="http://www.w3.org/2000/svg" aria-label="Animated snake">
-    <rect width="100%" height="100%" rx="8" ry="8" fill="#071826" opacity="0.06" />
-    <g id="snake-group" transform="translate(-220,40)">
-      <!-- moving group: translate across the canvas -->
-      <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="6s" repeatCount="indefinite" values="-220 40;420 40;900 40" />
 
-      <!-- segments: circles with staggered vertical undulation -->
-      <!-- we create 12 circles; each has a small vertical translate animation with different begin offsets -->
-      <!-- colors form a gradient-like body -->
-      <defs>
-        <linearGradient id="g1" x1="0%" x2="100%">
-          <stop offset="0%" stop-color="#34d399"/>
-          <stop offset="50%" stop-color="#15803d"/>
-          <stop offset="100%" stop-color="#2ecc71"/>
-        </linearGradient>
-      </defs>
-      <!-- segments positioned along the x axis -->
-      <g>
-        <!-- generate circles -->
-        <circle cx="0" cy="20" r="14" fill="url(#g1)" />
-        <circle cx="36" cy="20" r="13" fill="#2bb673">
-          <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="0.7s" values="0 0;0 -10;0 0" begin="0s" repeatCount="indefinite"/>
-        </circle>
-        <circle cx="72" cy="20" r="12" fill="#20a86f">
-          <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="0.68s" values="0 0;0 -8;0 0" begin="-0.08s" repeatCount="indefinite"/>
-        </circle>
-        <circle cx="108" cy="20" r="11" fill="#16a34a">
-          <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="0.66s" values="0 0;0 -9;0 0" begin="-0.16s" repeatCount="indefinite"/>
-        </circle>
-        <circle cx="144" cy="20" r="10" fill="#15803d">
-          <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="0.64s" values="0 0;0 -7;0 0" begin="-0.24s" repeatCount="indefinite"/>
-        </circle>
-        <circle cx="180" cy="20" r="10" fill="#10b981">
-          <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="0.62s" values="0 0;0 -6;0 0" begin="-0.32s" repeatCount="indefinite"/>
-        </circle>
-        <circle cx="216" cy="20" r="9" fill="#059669">
-          <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="0.6s" values="0 0;0 -8;0 0" begin="-0.4s" repeatCount="indefinite"/>
-        </circle>
-        <circle cx="252" cy="20" r="9" fill="#34d399">
-          <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="0.66s" values="0 0;0 -9;0 0" begin="-0.48s" repeatCount="indefinite"/>
-        </circle>
-        <circle cx="288" cy="20" r="8" fill="#2ecc71">
-          <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="0.7s" values="0 0;0 -6;0 0" begin="-0.56s" repeatCount="indefinite"/>
-        </circle>
-        <circle cx="324" cy="20" r="8" fill="#10b981">
-          <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="0.62s" values="0 0;0 -7;0 0" begin="-0.64s" repeatCount="indefinite"/>
-        </circle>
-        <circle cx="360" cy="20" r="7" fill="#34d399">
-          <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="0.6s" values="0 0;0 -5;0 0" begin="-0.72s" repeatCount="indefinite"/>
-        </circle>
-        <!-- head with eye -->
-        <g transform="translate(396,20)">
-          <ellipse rx="11" ry="10" fill="#16a34a" />
-          <circle cx="4" cy="-2" r="2.2" fill="#071826" />
-          <!-- tongue flick -->
-          <rect x="8" y="2" width="2" height="8" rx="1" fill="#ef4444">
-            <animate attributeName="y" values="2;6;2" dur="0.45s" repeatCount="indefinite"/>
-          </rect>
-        </g>
-      </g>
-    </g>
+### 💻 Languages
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-    <!-- Blinking text below the snake (SVG text with animate) -->
-    <text x="50%" y="118" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#38bdf8">
-      <tspan>Nhấp nháy: </tspan>
-      <tspan id="blinkText" font-weight="700">Chất Nào • Rắn chạy • Chữ nhấp nháy</tspan>
-      <animate xlink:href="#blinkText" attributeName="opacity" values="1;0;1" dur="1.5s" repeatCount="indefinite" />
-      <animate xlink:href="#blinkText" attributeName="fill" values="#38bdf8;#f472b6;#facc15;#34d399;#38bdf8" dur="4s" repeatCount="indefinite"/>
-    </text>
-  </svg>
+### 🎨 Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+### ⚙️ Backend
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
+
+### 🗄️ Databases
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+
+### 🤖 AI/ML
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
+### 📡 IoT & Embedded
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=for-the-badge&logo=raspberry-pi&logoColor=white)
+
+### 🔧 Tools
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
 </div>
 
 ---
 
-## 🌐 Connect With Me
-<p align="center">
-<a href="https://facebook.com"><img src="https://img.shields.io/badge/Facebook-%230077F2.svg?&style=for-the-badge&logo=facebook&logoColor=white" /></a>
-<a href="mailto:truongvany@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-</p>
+## 🔥 FEATURED PROJECTS
+
+<div align="center">
+
+<table>
+<tr>
+<td width="50%">
+
+### 🏥 HealthAtom
+**Telemedicine Platform**
+
+Nền tảng y tế từ xa với tích hợp AI
+
+🛠️ `Node.js` `React` `MySQL` `JWT` `AI`
+
+📌 Status: `In Development`
+
+🔗 [View Demo](#) • [Source Code](#)
+
+</td>
+<td width="50%">
+
+### 💈 Haircut Booking System
+**Fullstack Booking App**
+
+Hệ thống đặt lịch cắt tóc thông minh
+
+🛠️ `React` `Node.js` `Express` `MySQL`
+
+📌 Status: `Live`
+
+🔗 [View Demo](https://github.com/truongvany/haircut)
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### ❤️ Love Letter App
+**Romantic Web Application**
+
+Ứng dụng gửi thư tình với UI đẹp mắt
+
+🛠️ `HTML` `CSS` `JavaScript` `Animations`
+
+📌 Status: `In Development`
+
+🔗 [View Demo](#)
+
+</td>
+<td width="50%">
+
+### ♻️ Smart Trash Bin
+**IoT Environmental Solution**
+
+Thùng rác thông minh với cảm biến
+
+🛠️ `ESP8266` `Firebase` `Sensors` `LED`
+
+📌 Status: `In Development`
+
+🔗 [View Demo](#)
+
+</td>
+</tr>
+</table>
+
+</div>
 
 ---
 
-<h3 align="center">🔥 Thanks for visiting – Have a great day! 🔥</h3>
+## 📊 GITHUB ANALYTICS
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=truongvany&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=truongvany&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=truongvany&theme=tokyonight&hide_border=true&background=0D1117" alt="truongvany's streak"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=truongvany&theme=tokyo-night&hide_border=true&bg_color=0D1117" width="100%"/>
+</div>
+
+---
+
+## 🐍 CONTRIBUTION SNAKE
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/truongvany/truongvany/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/truongvany/truongvany/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/truongvany/truongvany/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+
+---
+
+## 🎯 CURRENT GOALS
+
+```javascript
+const goals_2025 = {
+    learning: [
+        "🔥 Master Advanced React Patterns",
+        "🤖 Deep Learning with TensorFlow",
+        "☁️ Cloud Architecture (AWS/GCP)",
+        "🎨 UI/UX Design Principles"
+    ],
+    
+    building: [
+        "✅ Complete HealthAtom Platform",
+        "🚀 Launch 3 Open Source Projects",
+        "📱 Build Mobile Apps with React Native",
+        "🌐 Contribute to Major Open Source"
+    ],
+    
+    achievements: [
+        "💪 100+ GitHub Contributions",
+        "📝 Write 20+ Technical Blogs",
+        "🎤 Speak at Tech Meetups",
+        "🤝 Mentor 10+ Junior Developers"
+    ]
+};
+```
+
+---
+
+## 💬 CONNECT WITH ME
+
+<div align="center">
+
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://facebook.com)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:truongvany1608@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=white)](#)
+
+</div>
+
+---
+
+<div align="center">
+
+### 💭 Random Dev Quote
+
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
+### 📈 Profile Views
+
+![](https://komarev.com/ghpvc/?username=truongvany&color=blueviolet&style=for-the-badge)
+
+---
+
+<img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" />
+
+### ⚡ *"Code is like humor. When you have to explain it, it's bad."* – Cory House
+
+**Thanks for visiting! Let's build something amazing together! 🚀**
+
+</div>

@@ -1,41 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="800" height="220" viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg">
 
-  <!-- Gradient cầu vồng cho chữ Trương Văn Ý -->
+  <!-- Định nghĩa gradient + glow kiểu cyberpunk -->
   <defs>
+    <!-- Nền cyberpunk -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050018" />
+      <stop offset="50%" stop-color="#02010c" />
+      <stop offset="100%" stop-color="#000000" />
+    </linearGradient>
+
+    <!-- Gradient neon cho chữ -->
     <linearGradient id="rainbow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FF0000">
+      <stop offset="0%" stop-color="#ff00ff">
         <animate attributeName="stop-color"
-                 values="#FF0000;#FF7F00;#FFFF00;#00FF00;#0000FF;#9400D3;#FF0000"
+                 values="#ff00ff;#ff4081;#ffea00;#00e5ff;#7c4dff;#ff00ff"
                  dur="6s"
                  repeatCount="indefinite" />
       </stop>
-      <stop offset="100%" stop-color="#9400D3">
+      <stop offset="100%" stop-color="#00e5ff">
         <animate attributeName="stop-color"
-                 values="#9400D3;#0000FF;#00FF00;#FFFF00;#FF7F00;#FF0000;#9400D3"
+                 values="#00e5ff;#7c4dff;#ffea00;#ff4081;#ff00ff;#00e5ff"
                  dur="6s"
                  repeatCount="indefinite" />
       </stop>
     </linearGradient>
+
+    <!-- Glow nhẹ kiểu neon -->
+    <filter id="glow-soft">
+      <feGaussianBlur stdDeviation="2.2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glow-strong">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
   </defs>
 
-  <!-- Nền đen -->
-  <rect x="0" y="0" width="800" height="220" fill="#000000" />
+  <!-- Nền gradient tối -->
+  <rect x="0" y="0" width="800" height="220" fill="url(#bg)" />
 
-  <!-- Tên Trương Văn Ý (cầu vồng) -->
+  <!-- Tên Trương Văn Ý (neon) -->
   <text x="50%" y="80"
         dominant-baseline="middle"
         text-anchor="middle"
         font-family="'Fira Code','JetBrains Mono','Segoe UI',sans-serif"
         font-size="48"
         font-weight="700"
-        fill="url(#rainbow)">
+        fill="url(#rainbow)"
+        filter="url(#glow-strong)">
     Trương Văn Ý
   </text>
 
   <!-- 🌟 Ngôi sao nhỏ chạy ngang (star 1) -->
-  <g>
-    <circle cx="0" cy="0" r="2" fill="#FFFFFF" />
+  <g filter="url(#glow-soft)">
+    <circle cx="0" cy="0" r="2" fill="#E0F7FA" />
     <animateTransform attributeName="transform"
                       type="translate"
                       values="820 40; -20 40"
@@ -48,8 +74,8 @@
   </g>
 
   <!-- 🌟 Ngôi sao nhỏ chạy ngang (star 2) -->
-  <g>
-    <circle cx="0" cy="0" r="2.5" fill="#FFF9C4" />
+  <g filter="url(#glow-soft)">
+    <circle cx="0" cy="0" r="2.6" fill="#FFF59D" />
     <animateTransform attributeName="transform"
                       type="translate"
                       values="820 25; -20 25"
@@ -64,8 +90,8 @@
   </g>
 
   <!-- 🌟 Ngôi sao nhỏ chạy ngang (star 3) -->
-  <g>
-    <circle cx="0" cy="0" r="2" fill="#E3F2FD" />
+  <g filter="url(#glow-soft)">
+    <circle cx="0" cy="0" r="2.1" fill="#B3E5FC" />
     <animateTransform attributeName="transform"
                       type="translate"
                       values="820 60; -20 60"
@@ -80,12 +106,12 @@
   </g>
 
   <!-- 💫 Sao băng 1 -->
-  <g>
-    <line x1="0" y1="0" x2="22" y2="0"
-          stroke="#FFFFFF"
-          stroke-width="2"
+  <g filter="url(#glow-soft)">
+    <line x1="0" y1="0" x2="26" y2="0"
+          stroke="#80DEEA"
+          stroke-width="2.2"
           stroke-linecap="round" />
-    <circle cx="22" cy="0" r="3" fill="#FFFDE7" />
+    <circle cx="26" cy="0" r="3.4" fill="#E0FFFF" />
     <animateTransform attributeName="transform"
                       type="translate"
                       values="780 20; 320 120"
@@ -99,12 +125,12 @@
   </g>
 
   <!-- 💫 Sao băng 2 -->
-  <g>
-    <line x1="0" y1="0" x2="20" y2="0"
-          stroke="#FFF9C4"
-          stroke-width="2"
+  <g filter="url(#glow-soft)">
+    <line x1="0" y1="0" x2="22" y2="0"
+          stroke="#FF80AB"
+          stroke-width="2.1"
           stroke-linecap="round" />
-    <circle cx="20" cy="0" r="3" fill="#FFFDE7" />
+    <circle cx="22" cy="0" r="3.2" fill="#FFECEC" />
     <animateTransform attributeName="transform"
                       type="translate"
                       values="760 45; 300 145"
@@ -120,9 +146,9 @@
   </g>
 
   <!-- 🎈 Bong bóng 1 -->
-  <g>
-    <circle cx="0" cy="0" r="10" fill="#ff6b6b" />
-    <line x1="0" y1="10" x2="0" y2="35" stroke="#BBBBBB" stroke-width="1.2" />
+  <g filter="url(#glow-soft)">
+    <circle cx="0" cy="0" r="10" fill="#FF4081" />
+    <line x1="0" y1="10" x2="0" y2="35" stroke="#B0BEC5" stroke-width="1.2" />
     <animateTransform attributeName="transform"
                       type="translate"
                       values="310 110; 280 40; 260 -20"
@@ -137,9 +163,9 @@
   </g>
 
   <!-- Bong bóng 2 -->
-  <g>
-    <circle cx="0" cy="0" r="11" fill="#ffd166" />
-    <line x1="0" y1="10" x2="0" y2="35" stroke="#BBBBBB" stroke-width="1.2" />
+  <g filter="url(#glow-soft)">
+    <circle cx="0" cy="0" r="11" fill="#FFEA00" />
+    <line x1="0" y1="10" x2="0" y2="35" stroke="#CFD8DC" stroke-width="1.2" />
     <animateTransform attributeName="transform"
                       type="translate"
                       values="360 110; 340 35; 320 -25"
@@ -156,9 +182,9 @@
   </g>
 
   <!-- Bong bóng 3 -->
-  <g>
-    <circle cx="0" cy="0" r="12" fill="#4ecdc4" />
-    <line x1="0" y1="10" x2="0" y2="35" stroke="#BBBBBB" stroke-width="1.2" />
+  <g filter="url(#glow-soft)">
+    <circle cx="0" cy="0" r="12" fill="#00E5FF" />
+    <line x1="0" y1="10" x2="0" y2="35" stroke="#CFD8DC" stroke-width="1.2" />
     <animateTransform attributeName="transform"
                       type="translate"
                       values="400 110; 400 30; 395 -30"
@@ -170,46 +196,4 @@
              values="0;1;1;0"
              keyTimes="0;0.1;0.7;1"
              dur="4.4s"
-             begin="1.4s"
-             repeatCount="indefinite" />
-  </g>
-
-  <!-- Bong bóng 4 -->
-  <g>
-    <circle cx="0" cy="0" r="10" fill="#6c5ce7" />
-    <line x1="0" y1="10" x2="0" y2="35" stroke="#BBBBBB" stroke-width="1.2" />
-    <animateTransform attributeName="transform"
-                      type="translate"
-                      values="440 110; 460 35; 470 -25"
-                      keyTimes="0;0.7;1"
-                      dur="4.1s"
-                      begin="2.1s"
-                      repeatCount="indefinite" />
-    <animate attributeName="opacity"
-             values="0;1;1;0"
-             keyTimes="0;0.1;0.7;1"
-             dur="4.1s"
-             begin="2.1s"
-             repeatCount="indefinite" />
-  </g>
-
-  <!-- Bong bóng 5 -->
-  <g>
-    <circle cx="0" cy="0" r="11" fill="#ff9ff3" />
-    <line x1="0" y1="10" x2="0" y2="35" stroke="#BBBBBB" stroke-width="1.2" />
-    <animateTransform attributeName="transform"
-                      type="translate"
-                      values="490 110; 515 40; 535 -20"
-                      keyTimes="0;0.7;1"
-                      dur="4.3s"
-                      begin="2.8s"
-                      repeatCount="indefinite" />
-    <animate attributeName="opacity"
-             values="0;1;1;0"
-             keyTimes="0;0.1;0.7;1"
-             dur="4.3s"
-             begin="2.8s"
-             repeatCount="indefinite" />
-  </g>
-
-</svg>
+             begin="1.4

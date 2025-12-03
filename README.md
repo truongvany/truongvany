@@ -1,38 +1,6 @@
 <div align="center">
-
-<div align="center">
 🌈 Trương Văn Ý
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&multiline=false&repeat=true&width=435&lines=Trương+Văn+Ý" alt="Typing SVG" />
-
-Sử dụng gradient màu với HTML
-<h1>
-  <span style="background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3); 
-               -webkit-background-clip: text; 
-               -webkit-text-fill-color: transparent;
-               background-clip: text;">
-    Trương Văn Ý
-  </span>
-</h1>
-
-Hoặc sử dụng SVG động
-<svg width="400" height="100" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="rainbow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:1">
-        <animate attributeName="stop-color" values="red;orange;yellow;green;blue;indigo;violet;red" dur="5s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="50%" style="stop-color:rgb(0,255,0);stop-opacity:1">
-        <animate attributeName="stop-color" values="orange;yellow;green;blue;indigo;violet;red;orange" dur="5s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="100%" style="stop-color:rgb(0,0,255);stop-opacity:1">
-        <animate attributeName="stop-color" values="yellow;green;blue;indigo;violet;red;orange;yellow" dur="5s" repeatCount="indefinite" />
-      </stop>
-    </linearGradient>
-  </defs>
-  <text x="50%" y="50%" font-size="48" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="url(#rainbow)">
-    Trương Văn Ý
-  </text>
-</svg>
 
 ###  `Fullstack Developer`  • `AI/ML Engineer` • `IoT Enthusiast` 
 

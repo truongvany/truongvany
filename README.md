@@ -1,6 +1,6 @@
 <div align="center">
 
-#  TRƯƠNG VĂN Ý
+# <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&size=48&duration=2000&pause=500&color=FF00FF&center=true&vCenter=true&width=400&lines=TRƯƠNG+VĂN+Ý" alt="TRƯƠNG VĂN Ý" />
 
 ###  `Fullstack Developer`  • `AI/ML Engineer` • `IoT Enthusiast` 
 

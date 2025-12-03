@@ -172,13 +172,7 @@ Thùng rác thông minh với cảm biến
 
 ## 💼 WHAT I'M UP TO
 
-• 🎓 **Studying:** Information Technology at University of Education - Da Nang (UED)
-• 🔭 **Currently working on:** HealthAtom Platform, AI Integration, IoT Solutions
-• 🌱 **Learning:** Advanced React Patterns, Deep Learning with TensorFlow, Cloud Architecture (AWS/GCP)
-• 👯 **Looking to collaborate on:** Open Source Projects, AI/ML Solutions, IoT Applications
-• 💬 **Ask me about:** Web Development, API Design, Database Architecture, IoT Systems, AI/ML
-• 📚 **Reading:** Clean Code, Design Patterns, System Design, Machine Learning
-• ⚡ **Fun fact:** I turn coffee ☕ into code 💻 and love building tools that make life easier!
+🎓 **Studying:** Information Technology at UED | 🔭 **Working on:** HealthAtom Platform, AI Integration, IoT Solutions | 🌱 **Learning:** Advanced React Patterns, TensorFlow, Cloud Architecture (AWS/GCP) | 👯 **Collaborate on:** Open Source Projects, AI/ML Solutions, IoT Applications | 💬 **Ask me about:** Web Dev, API Design, Database Architecture, IoT Systems, AI/ML | 📚 **Reading:** Clean Code, Design Patterns, System Design, Machine Learning | ⚡ **Fun fact:** I turn coffee ☕ into code 💻 and love building tools that make life easier!
 
 ---
 

@@ -1,19 +1,28 @@
 <div align="center">
-  
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=550&lines=Always+learning+%26+creating;From+ideas+to+real+products;Web+%2B+AI+%2B+IoT+Integration" alt="Typing SVG" />
-</p>
-###  `Fullstack Developer`  • `AI/ML Engineer` • `IoT Enthusiast`
-<table align="center" cellspacing="10">
-  <tr>
-    <td border="1">
-      <img src="a1.jpg" alt="Giấy khen 1" width="300">
-    </td>
-    <td border="1">
-      <img src="a2.jpg" alt="Giấy khen 2" width="300">
-    </td>
-  </tr>
-</table>
+
+  <!-- Tên chính với icon -->
+  <h1>🚀 Trương Văn Ý 🚀</h1>
+
+  <!-- Subtitle ngay dưới tên -->
+  <p>
+    <strong>Fullstack Developer · AI/ML Engineer · IoT Enthusiast</strong><br/>
+    <samp>Building Smart Systems · Web + AI + IoT</samp>
+  </p>
+
+  <!-- Khung 2 giấy khen -->
+  <table align="center" border="1" cellpadding="12" cellspacing="0">
+    <tr>
+      <td>
+        <img src="a1.jpg" alt="Giấy khen 1" width="300">
+      </td>
+      <td>
+        <img src="a2.jpg" alt="Giấy khen 2" width="300">
+      </td>
+    </tr>
+  </table>
+
+</div>
+
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Atomic+Y+%F0%9F%A7%A0;Building+Smart+Systems+%F0%9F%A7%A0;Web+%2B+AI+%2B+IoT+Integration+%E2%9A%A1;From+Ideas+to+Real+Products+%F0%9F%9A%80;Always+Learning+%26+Creating+%F0%9F%94%A5)](https://git.io/typing-svg)
 

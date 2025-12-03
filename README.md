@@ -12,32 +12,36 @@
 
 ## 🎯 ABOUT ME
 
-```typescript
+<div align="center">
+
+```javascript
 const truongvany = {
-    location: "Da Nang, Vietnam 🇻🇳",
-    education: "IT Student @ UED - University of Danang",
-    role: "Fullstack Developer",
-    currentFocus: ["HealthAtom Platform", "AI Integration", "IoT Solutions"],
-    
-    techStack: {
-        frontend: ["React", "TailwindCSS", "Bootstrap"],
-        backend: ["Node.js", "Express", "REST API", "JWT"],
-        database: ["MySQL", "MongoDB", "SQL Server"],
-        ai_ml: ["Python", "Scikit-learn", "NumPy", "Pandas"],
-        iot: ["Arduino", "ESP8266", "ESP32", "LED Matrix P10"],
-        languages: ["JavaScript", "Python", "Java", "C/C++", "SQL"]
-    },
-    
-    askMeAbout: ["Web Dev", "API Design", "Database", "IoT", "AI/ML"],
-    
-    contact: {
-        email: "truongvany1608@gmail.com",
-        github: "@truongvany"
-    },
-    
-    funFact: "I turn coffee ☕ into code 💻"
+  location: "Da Nang, Vietnam 🇻🇳",
+  education: "IT Student @ UED - University of Danang",
+  role: "Fullstack Developer",
+  currentFocus: ["HealthAtom Platform", "AI Integration", "IoT Solutions"],
+  
+  techStack: {
+    frontend: ["React", "TailwindCSS", "Bootstrap"],
+    backend: ["Node.js", "Express", "REST API", "JWT"],
+    database: ["MySQL", "MongoDB", "SQL Server"],
+    ai_ml: ["Python", "Scikit-learn", "NumPy", "Pandas"],
+    iot: ["Arduino", "ESP8266", "ESP32", "LED Matrix P10"],
+    languages: ["JavaScript", "Python", "Java", "C/C++", "SQL"]
+  },
+  
+  askMeAbout: ["Web Dev", "API Design", "Database", "IoT", "AI/ML"],
+  
+  contact: {
+    email: "truongvany1608@gmail.com",
+    github: "@truongvany"
+  },
+  
+  funFact: "I turn coffee ☕ into code 💻"
 };
 ```
+
+</div>
 
 ---
 

@@ -1,134 +1,439 @@
-<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="800" height="400" fill="#f0f8ff"/>
-  
-  <!-- Sky gradient -->
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="220" viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Gradient cầu vồng cho chữ Trương Văn Ý -->
   <defs>
-    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#87ceeb;stop-opacity:0.8" />
-      <stop offset="100%" style="stop-color:#e0f6ff;stop-opacity:0.8" />
-    </linearGradient>
-    <linearGradient id="grassGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#90ee90;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#228b22;stop-opacity:1" />
+    <linearGradient id="rainbow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF0000">
+        <animate attributeName="stop-color"
+                 values="#FF0000;#FF7F00;#FFFF00;#00FF00;#0000FF;#9400D3;#FF0000"
+                 dur="6s"
+                 repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#9400D3">
+        <animate attributeName="stop-color"
+                 values="#9400D3;#0000FF;#00FF00;#FFFF00;#FF7F00;#FF0000;#9400D3"
+                 dur="6s"
+                 repeatCount="indefinite" />
+      </stop>
     </linearGradient>
   </defs>
-  
-  <rect width="800" height="300" fill="url(#skyGradient)"/>
-  <rect y="300" width="800" height="100" fill="url(#grassGradient)"/>
-  
-  <!-- Flower 1 - Red Rose -->
-  <g transform="translate(100, 200)">
-    <!-- Stem -->
-    <line x1="0" y1="0" x2="0" y2="120" stroke="#2d5016" stroke-width="3"/>
-    <line x1="2" y1="20" x2="-15" y2="35" stroke="#2d5016" stroke-width="2"/>
-    <line x1="-2" y1="50" x2="15" y2="65" stroke="#2d5016" stroke-width="2"/>
-    
-    <!-- Petals -->
-    <circle cx="-8" cy="-15" r="8" fill="#ff1744" opacity="0.9"/>
-    <circle cx="8" cy="-15" r="8" fill="#ff5252" opacity="0.85"/>
-    <circle cx="-12" cy="-2" r="7" fill="#ff5252" opacity="0.85"/>
-    <circle cx="12" cy="-2" r="7" fill="#ff1744" opacity="0.9"/>
-    <circle cx="0" cy="-8" r="9" fill="#ff3d5f" opacity="0.95"/>
-    
-    <!-- Center -->
-    <circle cx="0" cy="-5" r="5" fill="#ffb300"/>
+
+  <!-- Nền đen -->
+  <rect x="0" y="0" width="800" height="220" fill="#000000" />
+
+  <!-- Tên Trương Văn Ý (cầu vồng) -->
+  <text x="50%" y="80"
+        dominant-baseline="middle"
+        text-anchor="middle"
+        font-family="'Fira Code','JetBrains Mono','Segoe UI',sans-serif"
+        font-size="48"
+        font-weight="700"
+        fill="url(#rainbow)">
+    Trương Văn Ý
+  </text>
+
+  <!-- 🌟 Ngôi sao nhỏ chạy ngang (star 1) -->
+  <g>
+    <circle cx="0" cy="0" r="2" fill="#FFFFFF" />
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      values="820 40; -20 40"
+                      dur="4s"
+                      repeatCount="indefinite" />
+    <animate attributeName="opacity"
+             values="0;1;1;0"
+             dur="4s"
+             repeatCount="indefinite" />
   </g>
-  
-  <!-- Flower 2 - Yellow Sunflower -->
-  <g transform="translate(350, 180)">
-    <!-- Stem -->
-    <path d="M 0 0 Q 5 30 3 60 Q 1 90 0 120" stroke="#2d5016" stroke-width="3" fill="none"/>
-    
-    <!-- Petals -->
-    <circle cx="0" cy="-25" r="10" fill="#ffeb3b"/>
-    <circle cx="18" cy="-18" r="10" fill="#fdd835"/>
-    <circle cx="22" cy="2" r="10" fill="#ffeb3b"/>
-    <circle cx="18" cy="22" r="10" fill="#fdd835"/>
-    <circle cx="0" cy="28" r="10" fill="#ffeb3b"/>
-    <circle cx="-18" cy="22" r="10" fill="#fdd835"/>
-    <circle cx="-22" cy="2" r="10" fill="#ffeb3b"/>
-    <circle cx="-18" cy="-18" r="10" fill="#fdd835"/>
-    
-    <!-- Center -->
-    <circle cx="0" cy="0" r="12" fill="#ff8f00"/>
+
+  <!-- 🌟 Ngôi sao nhỏ chạy ngang (star 2) -->
+  <g>
+    <circle cx="0" cy="0" r="2.5" fill="#FFF9C4" />
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      values="820 25; -20 25"
+                      dur="5s"
+                      begin="1s"
+                      repeatCount="indefinite" />
+    <animate attributeName="opacity"
+             values="0;1;1;0"
+             dur="5s"
+             begin="1s"
+             repeatCount="indefinite" />
   </g>
-  
-  <!-- Flower 3 - Purple Daisy -->
-  <g transform="translate(600, 210)">
-    <!-- Stem -->
-    <line x1="0" y1="0" x2="0" y2="130" stroke="#2d5016" stroke-width="3"/>
-    <line x1="0" y1="40" x2="-12" y2="55" stroke="#2d5016" stroke-width="2"/>
-    <line x1="0" y1="80" x2="14" y2="92" stroke="#2d5016" stroke-width="2"/>
-    
-    <!-- Petals -->
-    <ellipse cx="0" cy="-16" rx="6" ry="12" fill="#9c27b0"/>
-    <ellipse cx="11" cy="-8" rx="6" ry="12" fill="#ba68c8" transform="rotate(45 11 -8)"/>
-    <ellipse cx="16" cy="0" rx="6" ry="12" fill="#9c27b0" transform="rotate(90 16 0)"/>
-    <ellipse cx="11" cy="8" rx="6" ry="12" fill="#ba68c8" transform="rotate(135 11 8)"/>
-    <ellipse cx="0" cy="16" rx="6" ry="12" fill="#9c27b0" transform="rotate(180 0 16)"/>
-    <ellipse cx="-11" cy="8" rx="6" ry="12" fill="#ba68c8" transform="rotate(225 -11 8)"/>
-    <ellipse cx="-16" cy="0" rx="6" ry="12" fill="#9c27b0" transform="rotate(270 -16 0)"/>
-    <ellipse cx="-11" cy="-8" rx="6" ry="12" fill="#ba68c8" transform="rotate(315 -11 -8)"/>
-    
-    <!-- Center -->
-    <circle cx="0" cy="0" r="8" fill="#ffeb3b"/>
+
+  <!-- 🌟 Ngôi sao nhỏ chạy ngang (star 3) -->
+  <g>
+    <circle cx="0" cy="0" r="2" fill="#E3F2FD" />
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      values="820 60; -20 60"
+                      dur="4.5s"
+                      begin="2s"
+                      repeatCount="indefinite" />
+    <animate attributeName="opacity"
+             values="0;1;1;0"
+             dur="4.5s"
+             begin="2s"
+             repeatCount="indefinite" />
   </g>
-  
-  <!-- Grass blades -->
-  <g stroke="#2d5016" stroke-width="2" fill="none">
-    <!-- Grass 1 -->
-    <path d="M 80 320 Q 75 310 78 300" />
-    <path d="M 85 320 Q 92 310 88 300" />
-    
-    <!-- Grass 2 -->
-    <path d="M 200 330 Q 195 315 198 300" />
-    <path d="M 210 330 Q 220 315 215 300" />
-    <path d="M 220 330 Q 215 315 218 300" />
-    
-    <!-- Grass 3 -->
-    <path d="M 450 335 Q 445 320 448 305" />
-    <path d="M 460 335 Q 468 320 464 305" />
-    <path d="M 470 335 Q 465 320 468 305" />
-    <path d="M 480 335 Q 488 320 484 305" />
-    
-    <!-- Grass 4 -->
-    <path d="M 650 330 Q 645 315 648 300" />
-    <path d="M 660 330 Q 668 315 664 300" />
-    <path d="M 670 330 Q 665 315 668 300" />
+
+  <!-- 💫 Sao băng 1 -->
+  <g>
+    <line x1="0" y1="0" x2="22" y2="0"
+          stroke="#FFFFFF"
+          stroke-width="2"
+          stroke-linecap="round" />
+    <circle cx="22" cy="0" r="3" fill="#FFFDE7" />
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      values="780 20; 320 120"
+                      dur="2.8s"
+                      repeatCount="indefinite" />
+    <animate attributeName="opacity"
+             values="0;1;1;0"
+             keyTimes="0;0.2;0.7;1"
+             dur="2.8s"
+             repeatCount="indefinite" />
   </g>
-  
-  <!-- Decorative clouds -->
-  <g fill="#ffffff" opacity="0.7">
-    <ellipse cx="150" cy="80" rx="40" ry="25"/>
-    <ellipse cx="190" cy="95" rx="35" ry="20"/>
-    <ellipse cx="110" cy="100" rx="30" ry="18"/>
-    
-    <ellipse cx="550" cy="120" rx="45" ry="28"/>
-    <ellipse cx="600" cy="140" rx="40" ry="22"/>
-    <ellipse cx="500" cy="145" rx="35" ry="20"/>
+
+  <!-- 💫 Sao băng 2 -->
+  <g>
+    <line x1="0" y1="0" x2="20" y2="0"
+          stroke="#FFF9C4"
+          stroke-width="2"
+          stroke-linecap="round" />
+    <circle cx="20" cy="0" r="3" fill="#FFFDE7" />
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      values="760 45; 300 145"
+                      dur="3.2s"
+                      begin="1.4s"
+                      repeatCount="indefinite" />
+    <animate attributeName="opacity"
+             values="0;1;1;0"
+             keyTimes="0;0.2;0.7;1"
+             dur="3.2s"
+             begin="1.4s"
+             repeatCount="indefinite" />
   </g>
-  
-  <!-- Butterflies -->
-  <g transform="translate(250, 150)">
-    <!-- Body -->
-    <ellipse cx="0" cy="0" rx="2" ry="8" fill="#333"/>
-    <!-- Left wings -->
-    <ellipse cx="-8" cy="-3" rx="8" ry="6" fill="#ff69b4" opacity="0.8"/>
-    <ellipse cx="-8" cy="3" rx="8" ry="6" fill="#ff1493" opacity="0.8"/>
-    <!-- Right wings -->
-    <ellipse cx="8" cy="-3" rx="8" ry="6" fill="#ff69b4" opacity="0.8"/>
-    <ellipse cx="8" cy="3" rx="8" ry="6" fill="#ff1493" opacity="0.8"/>
+
+  <!-- 🎈 Bong bóng 1 -->
+  <g>
+    <circle cx="0" cy="0" r="10" fill="#ff6b6b" />
+    <line x1="0" y1="10" x2="0" y2="35" stroke="#BBBBBB" stroke-width="1.2" />
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      values="310 110; 280 40; 260 -20"
+                      keyTimes="0;0.7;1"
+                      dur="4s"
+                      repeatCount="indefinite" />
+    <animate attributeName="opacity"
+             values="0;1;1;0"
+             keyTimes="0;0.1;0.7;1"
+             dur="4s"
+             repeatCount="indefinite" />
   </g>
-  
-  <g transform="translate(700, 200)">
-    <!-- Body -->
-    <ellipse cx="0" cy="0" rx="2" ry="8" fill="#333"/>
-    <!-- Left wings -->
-    <ellipse cx="-8" cy="-3" rx="8" ry="6" fill="#ffeb3b" opacity="0.8"/>
-    <ellipse cx="-8" cy="3" rx="8" ry="6" fill="#fdd835" opacity="0.8"/>
-    <!-- Right wings -->
-    <ellipse cx="8" cy="-3" rx="8" ry="6" fill="#ffeb3b" opacity="0.8"/>
-    <ellipse cx="8" cy="3" rx="8" ry="6" fill="#fdd835" opacity="0.8"/>
+
+  <!-- Bong bóng 2 -->
+  <g>
+    <circle cx="0" cy="0" r="11" fill="#ffd166" />
+    <line x1="0" y1="10" x2="0" y2="35" stroke="#BBBBBB" stroke-width="1.2" />
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      values="360 110; 340 35; 320 -25"
+                      keyTimes="0;0.7;1"
+                      dur="4.2s"
+                      begin="0.7s"
+                      repeatCount="indefinite" />
+    <animate attributeName="opacity"
+             values="0;1;1;0"
+             keyTimes="0;0.1;0.7;1"
+             dur="4.2s"
+             begin="0.7s"
+             repeatCount="indefinite" />
   </g>
-</svg>
+
+  <!-- Bong bóng 3 -->
+  <g>
+    <circle cx="0" cy="0" r="12" fill="#4ecdc4" />
+    <line x1="0" y1="10" x2="0" y2="35" stroke="#BBBBBB" stroke-width="1.2" />
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      values="400 110; 400 30; 395 -30"
+                      keyTimes="0;0.7;1"
+                      dur="4.4s"
+                      begin="1.4s"
+                      repeatCount="indefinite" />
+    <animate attributeName="opacity"
+             values="0;1;1;0"
+             keyTimes="0;0.1;0.7;1"
+             dur="4.4s"
+             begin="1.4s"
+             repeatCount="indefinite" />
+  </g>
+
+  <!-- Bong bóng 4 -->
+  <g>
+    <circle cx="0" cy="0" r="10" fill="#6c5ce7" />
+    <line x1="0" y1="10" x2="0" y2="35" stroke="#BBBBBB" stroke-width="1.2" />
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      values="440 110; 460 35; 470 -25"
+                      keyTimes="0;0.7;1"
+                      dur="4.1s"
+                      begin="2.1s"
+                      repeatCount="indefinite" />
+    <animate attributeName="opacity"
+             values="0;1;1;0"
+             keyTimes="0;0.1;0.7;1"
+             dur="4.1s"
+             begin="2.1s"
+             repeatCount="indefinite" />
+  </g>
+
+  <!-- Bong bóng 5 -->
+  <g>
+    <circle cx="0" cy="0" r="11" fill="#ff9ff3" />
+    <line x1="0" y1="10" x2="0" y2="35" stroke="#BBBBBB" stroke-width="1.2" />
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      values="490 110; 515 40; 535 -20"
+                      keyTimes="0;0.7;1"
+                      dur="4.3s"
+                      begin="2.8s"
+                      repeatCount="indefinite" />
+    <animate attributeName="opacity"
+             values="0;1;1;0"
+             keyTimes="0;0.1;0.7;1"
+             dur="4.3s"
+             begin="2.8s"
+             repeatCount="indefinite" />
+  </g>
+
+  <!-- 🌿 Cỏ đung đưa - Cải tiến -->
+  <!-- Cụm cỏ 1 - Trái -->
+  <g>
+    <path d="M 40 220 Q 35 200 38 175" stroke="#4CAF50" stroke-width="2.5" fill="none" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate"
+                        values="-6 40 220; 4 40 220; -6 40 220"
+                        dur="2.8s" repeatCount="indefinite" />
+    </path>
+    <path d="M 45 220 Q 43 195 46 165" stroke="#66BB6A" stroke-width="3" fill="none" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate"
+                        values="5 45 220; -3 45 220; 5 45 220"
+                        dur="3.2s" begin="0.3s" repeatCount="indefinite" />
+    </path>
+    <path d="M 52 220 Q 50 198 53 172" stroke="#81C784" stroke-width="2.2" fill="none" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate"
+                        values="-4 52 220; 6 52 220; -4 52 220"
+                        dur="2.5s" begin="0.6s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- Cụm cỏ 2 -->
+  <g>
+    <path d="M 110 220 Q 107 202 112 178" stroke="#4CAF50" stroke-width="2.8" fill="none" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate"
+                        values="4 110 220; -5 110 220; 4 110 220"
+                        dur="3s" begin="0.2s" repeatCount="indefinite" />
+    </path>
+    <path d="M 118 220 Q 116 195 120 168" stroke="#66BB6A" stroke-width="3.2" fill="none" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate"
+                        values="-3 118 220; 4 118 220; -3 118 220"
+                        dur="3.4s" begin="0.5s" repeatCount="indefinite" />
+    </path>
+    <path d="M 125 220 Q 123 200 126 175" stroke="#A5D6A7" stroke-width="2.5" fill="none" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate"
+                        values="5 125 220; -2 125 220; 5 125 220"
+                        dur="2.7s" begin="0.8s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- Cụm cỏ 3 -->
+  <g>
+    <path d="M 185 220 Q 182 205 187 182" stroke="#81C784" stroke-width="2.6" fill="none" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate"
+                        values="-5 185 220; 3 185 220; -5 185 220"
+                        dur="2.9s" begin="0.4s" repeatCount="indefinite" />
+    </path>
+    <path d="M 193 220 Q 191 198 195 170" stroke="#4CAF50" stroke-width="3" fill="none" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate"
+                        values="4 193 220; -4 193 220; 4 193 220"
+                        dur="3.1s" begin="0.7s" repeatCount="indefinite" />
+    </path>
+    <path d="M 200 220 Q 198 203 202 178" stroke="#66BB6A" stroke-width="2.4" fill="none" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate"
+                        values="-3 200 220; 5 200 220; -3 200 220"
+                        dur="2.6s" begin="1s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- Cụm cỏ 4 - Giữa trái -->
+  <g>
+    <path d="M 270 220 Q 268 200 272 175" stroke="#4CAF50" stroke-width="2.7" fill="none" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate"
+                        values="3 270 220; -4 270 220; 3 270 220"
+                        dur="3.3s" begin="0.3s" repeatCount="indefinite" />
+    </path>
+    <path d="M 278 220 Q 276 197 280 170" stroke="#A5D6A7" stroke-width="2.3" fill="none" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate"
+                        values="-5 278 220; 2 278 220; -5 278 220"
+                        dur="2.8s" begin="0.6s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- Cụm cỏ 5 - Giữa phải -->
+  <g>
+    <path d="M 520 220 Q 518 202 522 178" stroke="#66BB6A" stroke-width="2.9" fill="none" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate"
+                        values="-4 520 220; 5 520 220; -4 520 220"
+                        dur="3.2s" begin="0.4s" repeatCount="indefinite" />
+    </path>
+    <path d="M 528 220 Q 526 198 530 172" stroke="#81C784" stroke-width="2.5" fill="none" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate"
+                        values="3 528 220; -3 528 220; 3 528 220"
+                        dur="2.9s" begin="0.7s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- Cụm cỏ 6 -->
+  <g>
+    <path d="M 590 220 Q 587 203 592 180" stroke="#4CAF50" stroke-width="2.8" fill="none" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate"
+                        values="4 590 220; -5 590 220; 4 590 220"
+                        dur="3.1s" begin="0.2s" repeatCount="indefinite" />
+    </path>
+    <path d="M 598 220 Q 596 197 600 168" stroke="#66BB6A" stroke-width="3.1" fill="none" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate"
+                        values="-3 598 220; 4 598 220; -3 598 220"
+                        dur="2.7s" begin="0.5s" repeatCount="indefinite" />
+    </path>
+    <path d="M 605 220 Q 603 200 607 175" stroke="#A5D6A7" stroke-width="2.4" fill="none" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate"
+                        values="5 605 220; -2 605 220; 5 605 220"
+                        dur="3.4s" begin="0.8s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- Cụm cỏ 7 -->
+  <g>
+    <path d="M 665 220 Q 662 205 667 182" stroke="#81C784" stroke-width="2.6" fill="none" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate"
+                        values="-5 665 220; 3 665 220; -5 665 220"
+                        dur="2.8s" begin="0.3s" repeatCount="indefinite" />
+    </path>
+    <path d="M 673 220 Q 671 198 675 170" stroke="#4CAF50" stroke-width="3" fill="none" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate"
+                        values="4 673 220; -4 673 220; 4 673 220"
+                        dur="3.2s" begin="0.6s" repeatCount="indefinite" />
+    </path>
+    <path d="M 680 220 Q 678 202 682 176" stroke="#66BB6A" stroke-width="2.5" fill="none" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate"
+                        values="-3 680 220; 5 680 220; -3 680 220"
+                        dur="2.9s" begin="0.9s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- Cụm cỏ 8 - Phải -->
+  <g>
+    <path d="M 740 220 Q 737 203 742 180" stroke="#4CAF50" stroke-width="2.7" fill="none" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate"
+                        values="3 740 220; -4 740 220; 3 740 220"
+                        dur="3s" begin="0.4s" repeatCount="indefinite" />
+    </path>
+    <path d="M 748 220 Q 746 197 750 168" stroke="#66BB6A" stroke-width="3.2" fill="none" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate"
+                        values="-4 748 220; 5 748 220; -4 748 220"
+                        dur="3.3s" begin="0.7s" repeatCount="indefinite" />
+    </path>
+    <path d="M 755 220 Q 753 200 757 175" stroke="#A5D6A7" stroke-width="2.4" fill="none" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate"
+                        values="5 755 220; -3 755 220; 5 755 220"
+                        dur="2.6s" begin="1s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- 🌸 Hoa đẹp hơn -->
+  <!-- Hoa 1 - Đỏ nhỏ xinh -->
+  <g>
+    <!-- Cánh hoa -->
+    <ellipse cx="95" cy="183" rx="5" ry="7" fill="#FF6B6B" opacity="0.9" transform="rotate(-20 95 183)"/>
+    <ellipse cx="105" cy="183" rx="5" ry="7" fill="#FF6B6B" opacity="0.9" transform="rotate(20 105 183)"/>
+    <ellipse cx="95" cy="191" rx="5" ry="7" fill="#FF8787" opacity="0.9" transform="rotate(-70 95 191)"/>
+    <ellipse cx="105" cy="191" rx="5" ry="7" fill="#FF8787" opacity="0.9" transform="rotate(70 105 191)"/>
+    <ellipse cx="100" cy="187" rx="6" ry="8" fill="#FF5252" opacity="0.9"/>
+    <!-- Nhụy hoa -->
+    <circle cx="100" cy="187" r="3" fill="#FFD700">
+      <animate attributeName="r" values="2.5;3.5;2.5" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="100" cy="187" r="1.5" fill="#FFF59D"/>
+    <!-- Thân cây -->
+    <path d="M 100 187 Q 98 205 96 220" stroke="#4CAF50" stroke-width="2" fill="none"/>
+    <animateTransform attributeName="transform" type="rotate"
+                      values="-3 100 187; 3 100 187; -3 100 187"
+                      dur="3s" repeatCount="indefinite" />
+  </g>
+
+  <!-- Hoa 2 - Vàng rực rỡ -->
+  <g>
+    <!-- Cánh hoa -->
+    <ellipse cx="165" cy="188" rx="6" ry="8" fill="#FFD166" opacity="0.95" transform="rotate(-25 165 188)"/>
+    <ellipse cx="175" cy="188" rx="6" ry="8" fill="#FFD166" opacity="0.95" transform="rotate(25 175 188)"/>
+    <ellipse cx="165" cy="197" rx="6" ry="8" fill="#FFED4E" opacity="0.95" transform="rotate(-65 165 197)"/>
+    <ellipse cx="175" cy="197" rx="6" ry="8" fill="#FFED4E" opacity="0.95" transform="rotate(65 175 197)"/>
+    <ellipse cx="170" cy="193" rx="7" ry="9" fill="#FFC107" opacity="0.95"/>
+    <!-- Nhụy hoa -->
+    <circle cx="170" cy="193" r="3.5" fill="#FF6B6B">
+      <animate attributeName="r" values="3;4;3" dur="2.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="170" cy="193" r="2" fill="#FF8A80"/>
+    <!-- Thân cây -->
+    <path d="M 170 193 Q 168 208 166 220" stroke="#66BB6A" stroke-width="2.2" fill="none"/>
+    <animateTransform attributeName="transform" type="rotate"
+                      values="2 170 193; -3 170 193; 2 170 193"
+                      dur="2.8s" begin="0.4s" repeatCount="indefinite" />
+  </g>
+
+  <!-- Hoa 3 - Cam tươi -->
+  <g>
+    <!-- Cánh hoa -->
+    <ellipse cx="276" cy="194" rx="5" ry="7" fill="#FF8C42" opacity="0.9" transform="rotate(-30 276 194)"/>
+    <ellipse cx="284" cy="194" rx="5" ry="7" fill="#FF8C42" opacity="0.9" transform="rotate(30 284 194)"/>
+    <ellipse cx="276" cy="202" rx="5" ry="7" fill="#FFB380" opacity="0.9" transform="rotate(-75 276 202)"/>
+    <ellipse cx="284" cy="202" rx="5" ry="7" fill="#FFB380" opacity="0.9" transform="rotate(75 284 202)"/>
+    <ellipse cx="280" cy="198" rx="5.5" ry="8" fill="#FF7043" opacity="0.9"/>
+    <!-- Nhụy hoa -->
+    <circle cx="280" cy="198" r="2.8" fill="#FFFF00">
+      <animate attributeName="r" values="2.3;3.3;2.3" dur="2.1s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="280" cy="198" r="1.5" fill="#FFF9C4"/>
+    <!-- Thân cây -->
+    <path d="M 280 198 Q 279 210 278 220" stroke="#4CAF50" stroke-width="2" fill="none"/>
+    <animateTransform attributeName="transform" type="rotate"
+                      values="-2 280 198; 4 280 198; -2 280 198"
+                      dur="3.1s" begin="0.8s" repeatCount="indefinite" />
+  </g>
+
+  <!-- Hoa 4 - Hồng dễ thương -->
+  <g>
+    <!-- Cánh hoa -->
+    <ellipse cx="606" cy="185" rx="5.5" ry="7.5" fill="#FF69B4" opacity="0.95" transform="rotate(-22 606 185)"/>
+    <ellipse cx="614" cy="185" rx="5.5" ry="7.5" fill="#FF69B4" opacity="0.95" transform="rotate(22 614 185)"/>
+    <ellipse cx="606" cy="193" rx="5.5" ry="7.5" fill="#FFB6D9" opacity="0.95" transform="rotate(-68 606 193)"/>
+    <ellipse cx="614" cy="193" rx="5.5" ry="7.5" fill="#FFB6D9" opacity="0.95" transform="rotate(68 614 193)"/>
+    <ellipse cx="610" cy="189" rx="6" ry="8.5" fill="#FF1493" opacity="0.95"/>
+    <!-- Nhụy hoa -->
+    <circle cx="610" cy="189" r="3" fill="#FFFF00">
+      <animate attributeName="r" values="2.5;3.5;2.5" dur="1.9s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="610" cy="189" r="1.5" fill="#FFFDE7"/>
+    <!-- Thân cây -->
+    <path d="M 610 189 Q 609 206 608 220" stroke="#66BB6A" stroke-width="2.1" fill="none"/>
+    <animateTransform attributeName="transform" type="rotate"
+                      values="-4 610 189; 3 610 189; -4 610 189"
+                      dur="2.9s" begin="0.5s" repeatCount="indefinite" />
+  </g>
+
+  

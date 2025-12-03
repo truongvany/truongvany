@@ -1,7 +1,7 @@
 <div align="center">
 
   <p align="center">
-  <img src="./truongvany-rainbow.svg" alt=">🚀<Trương Văn Ý>🚀<" />
+  <img src="./truongvany-rainbow.svg" alt="🚀 Trương Văn Ý 🚀" />
   </p><
   <p>
     <strong>Fullstack Developer · AI/ML Engineer · IoT Enthusiast</strong><br/>

@@ -193,30 +193,27 @@ Thùng rác thông minh với cảm biến
 
 ## 🎯 CURRENT GOALS
 
-```javascript
-const goals_2025 = {
-    learning: [
-        "🔥 Master Advanced React Patterns",
-        "🤖 Deep Learning with TensorFlow",
-        "☁️ Cloud Architecture (AWS/GCP)",
-        "🎨 UI/UX Design Principles"
-    ],
-    
-    building: [
-        "✅ Complete HealthAtom Platform",
-        "🚀 Launch 3 Open Source Projects",
-        "📱 Build Mobile Apps with React Native",
-        "🌐 Contribute to Major Open Source"
-    ],
-    
-    achievements: [
-        "💪 100+ GitHub Contributions",
-        "📝 Write 20+ Technical Blogs",
-        "🎤 Speak at Tech Meetups",
-        "🤝 Mentor 10+ Junior Developers"
-    ]
-};
-```
+<div align="center">
+
+### 📚 Learning Goals
+- 🔥 **Master Advanced React Patterns** - Hooks, Context API, Performance Optimization
+- 🤖 **Deep Learning with TensorFlow** - Neural Networks, Computer Vision
+- ☁️ **Cloud Architecture (AWS/GCP)** - Serverless, Microservices, DevOps
+- 🎨 **UI/UX Design Principles** - Figma, Design Systems
+
+### 🏗️ Building Projects
+- ✅ **Complete HealthAtom Platform** - Full telemedicine ecosystem
+- 🚀 **Launch 3 Open Source Projects** - Contributing back to community
+- 📱 **Build Mobile Apps with React Native** - Cross-platform development
+- 🌐 **Contribute to Major Open Source** - Real-world impact
+
+### 🏆 Achievements
+- 💪 **100+ GitHub Contributions** - Active development
+- 📝 **Write 20+ Technical Blogs** - Knowledge sharing
+- 🎤 **Speak at Tech Meetups** - Community engagement
+- 🤝 **Mentor 10+ Junior Developers** - Giving back
+
+</div>
 
 ---
 

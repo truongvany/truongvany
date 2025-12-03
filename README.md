@@ -3,27 +3,16 @@
 <p align="center">
   <img src="./truongvany-rainbow.svg" alt="Trương Văn Ý" />
 </p>
-
-<p align="center">
-  <div style="
-    display: inline-block;
-    padding: 16px 24px;
-    border-radius: 18px;
-    border: 1px solid #e5e7eb;
-    background: #ffffff;
-    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
-  ">
-    <img src="a1.jpg"
-         alt="Giấy khen 1"
-         style="height: 180px; margin: 0 10px; border-radius: 10px;" />
-    <img src="a2.jpg"
-         alt="Giấy khen 2"
-         style="height: 180px; margin: 0 10px; border-radius: 10px;" />
-  </div>
-</p>
-
-
-
+<table align="center" cellspacing="10">
+  <tr>
+    <td border="1">
+      <img src="a1.jpg" alt="Giấy khen 1" width="300">
+    </td>
+    <td border="1">
+      <img src="a2.jpg" alt="Giấy khen 2" width="300">
+    </td>
+  </tr>
+</table>
 
 ###  `Fullstack Developer`  • `AI/ML Engineer` • `IoT Enthusiast`
 

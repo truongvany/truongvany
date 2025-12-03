@@ -1,13 +1,9 @@
 <div align="center">
 
   <p align="center">
-  <img src="./truongvany-rainbow.svg" alt="🚀 Trương Văn Ý 🚀" />
-  </p><
-  <p>
-    <strong>Fullstack Developer · AI/ML Engineer · IoT Enthusiast</strong><br/>
-    <samp>Building Smart Systems · Web + AI + IoT</samp>
+  <img src="./truongvany-rainbow.svg" alt="Trương Văn Ý " />
   </p>
-
+  ### `< Fullstack Developer />` • `AI/ML Engineer` • `IoT Enthusiast`
   <!-- Khung 2 giấy khen -->
   <table align="center" border="1" cellpadding="12" cellspacing="0">
     <tr>

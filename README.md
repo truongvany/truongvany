@@ -52,6 +52,60 @@
 🔗 https://github.com/truongvany/haircut
 
 ### ❤️ **Love-letter App**
+<!-- Banner -->
+<h1 align="center">🔥 Trương Văn Ý 🔥</h1>
+<h3 align="center">Fullstack Developer • AI/ML • IoT & Embedded Systems</h3>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=22&center=true&vCenter=true&width=600&lines=Creating+smart+systems+with+Web+%2B+AI+%2B+IoT;Fullstack+NodeJS+%7C+React+%7C+SQL;Turning+ideas+into+real+products;HealthAtom+%26+Haircut+Booking+System;Welcome+to+my+GitHub+🔥" />
+</p>
+
+---
+
+## 🚀 About Me
+- 🎓 IT Student @ UED – University of Danang  
+- 💻 Fullstack Developer: **NodeJS • ReactJS • SQL**  
+- 🤖 Interested in **AI/ML (Python, Scikit-learn)**  
+- 📡 IoT Builder: **Arduino, ESP8266, ESP32, LED Matrix P10**  
+- 🔥 Currently building: **HealthAtom** & **Haircut Booking System**  
+- 💬 Ask me about **Web Dev, API, Database, IoT, AI/ML**  
+- 📫 Gmail: **truongvany1608@gmail.com**
+
+---
+
+## 🧠 Tech Stack
+
+### 🔹 Languages  
+`C/C++` `Java` `JavaScript` `Python` `SQL`
+
+### 🔹 Frontend  
+`ReactJS` `HTML` `CSS` `TailwindCSS` `Bootstrap`
+
+### 🔹 Backend  
+`NodeJS` `ExpressJS` `REST API` `JWT` `bcryptjs`
+
+### 🔹 Databases  
+`MySQL` `SQL Server` `MongoDB`
+
+### 🔹 AI/ML  
+`NumPy` `Pandas` `Matplotlib` `KNN` `Naive Bayes` `PCA`
+
+### 🔹 IoT & Embedded  
+`Arduino` `ESP8266` `ESP32` `P10 LED Matrix` `Sensors`
+
+---
+
+## ⚡ Featured Projects
+
+### 🔥 **HealthAtom – Telemedicine Platform**
+> NodeJS • React • MySQL • JWT • AI Integration  
+🔗 *Updating…*
+
+### 💈 **Haircut Booking System**
+> Fullstack: React + NodeJS + Express + MySQL  
+🔗 https://github.com/truongvany/haircut
+
+### ❤️ **Love-letter App**
 > Romantic UI • CSS animations • Sound effect  
 🔗 *Updating…*
 

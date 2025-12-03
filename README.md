@@ -31,8 +31,6 @@
 
 ---
 
----
-
 ## 🛠️ TECH ARSENAL
 
 <div align="center">

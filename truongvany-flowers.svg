@@ -1,0 +1,134 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f0f8ff"/>
+  
+  <!-- Sky gradient -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87ceeb;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#e0f6ff;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="grassGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#90ee90;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#228b22;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="300" fill="url(#skyGradient)"/>
+  <rect y="300" width="800" height="100" fill="url(#grassGradient)"/>
+  
+  <!-- Flower 1 - Red Rose -->
+  <g transform="translate(100, 200)">
+    <!-- Stem -->
+    <line x1="0" y1="0" x2="0" y2="120" stroke="#2d5016" stroke-width="3"/>
+    <line x1="2" y1="20" x2="-15" y2="35" stroke="#2d5016" stroke-width="2"/>
+    <line x1="-2" y1="50" x2="15" y2="65" stroke="#2d5016" stroke-width="2"/>
+    
+    <!-- Petals -->
+    <circle cx="-8" cy="-15" r="8" fill="#ff1744" opacity="0.9"/>
+    <circle cx="8" cy="-15" r="8" fill="#ff5252" opacity="0.85"/>
+    <circle cx="-12" cy="-2" r="7" fill="#ff5252" opacity="0.85"/>
+    <circle cx="12" cy="-2" r="7" fill="#ff1744" opacity="0.9"/>
+    <circle cx="0" cy="-8" r="9" fill="#ff3d5f" opacity="0.95"/>
+    
+    <!-- Center -->
+    <circle cx="0" cy="-5" r="5" fill="#ffb300"/>
+  </g>
+  
+  <!-- Flower 2 - Yellow Sunflower -->
+  <g transform="translate(350, 180)">
+    <!-- Stem -->
+    <path d="M 0 0 Q 5 30 3 60 Q 1 90 0 120" stroke="#2d5016" stroke-width="3" fill="none"/>
+    
+    <!-- Petals -->
+    <circle cx="0" cy="-25" r="10" fill="#ffeb3b"/>
+    <circle cx="18" cy="-18" r="10" fill="#fdd835"/>
+    <circle cx="22" cy="2" r="10" fill="#ffeb3b"/>
+    <circle cx="18" cy="22" r="10" fill="#fdd835"/>
+    <circle cx="0" cy="28" r="10" fill="#ffeb3b"/>
+    <circle cx="-18" cy="22" r="10" fill="#fdd835"/>
+    <circle cx="-22" cy="2" r="10" fill="#ffeb3b"/>
+    <circle cx="-18" cy="-18" r="10" fill="#fdd835"/>
+    
+    <!-- Center -->
+    <circle cx="0" cy="0" r="12" fill="#ff8f00"/>
+  </g>
+  
+  <!-- Flower 3 - Purple Daisy -->
+  <g transform="translate(600, 210)">
+    <!-- Stem -->
+    <line x1="0" y1="0" x2="0" y2="130" stroke="#2d5016" stroke-width="3"/>
+    <line x1="0" y1="40" x2="-12" y2="55" stroke="#2d5016" stroke-width="2"/>
+    <line x1="0" y1="80" x2="14" y2="92" stroke="#2d5016" stroke-width="2"/>
+    
+    <!-- Petals -->
+    <ellipse cx="0" cy="-16" rx="6" ry="12" fill="#9c27b0"/>
+    <ellipse cx="11" cy="-8" rx="6" ry="12" fill="#ba68c8" transform="rotate(45 11 -8)"/>
+    <ellipse cx="16" cy="0" rx="6" ry="12" fill="#9c27b0" transform="rotate(90 16 0)"/>
+    <ellipse cx="11" cy="8" rx="6" ry="12" fill="#ba68c8" transform="rotate(135 11 8)"/>
+    <ellipse cx="0" cy="16" rx="6" ry="12" fill="#9c27b0" transform="rotate(180 0 16)"/>
+    <ellipse cx="-11" cy="8" rx="6" ry="12" fill="#ba68c8" transform="rotate(225 -11 8)"/>
+    <ellipse cx="-16" cy="0" rx="6" ry="12" fill="#9c27b0" transform="rotate(270 -16 0)"/>
+    <ellipse cx="-11" cy="-8" rx="6" ry="12" fill="#ba68c8" transform="rotate(315 -11 -8)"/>
+    
+    <!-- Center -->
+    <circle cx="0" cy="0" r="8" fill="#ffeb3b"/>
+  </g>
+  
+  <!-- Grass blades -->
+  <g stroke="#2d5016" stroke-width="2" fill="none">
+    <!-- Grass 1 -->
+    <path d="M 80 320 Q 75 310 78 300" />
+    <path d="M 85 320 Q 92 310 88 300" />
+    
+    <!-- Grass 2 -->
+    <path d="M 200 330 Q 195 315 198 300" />
+    <path d="M 210 330 Q 220 315 215 300" />
+    <path d="M 220 330 Q 215 315 218 300" />
+    
+    <!-- Grass 3 -->
+    <path d="M 450 335 Q 445 320 448 305" />
+    <path d="M 460 335 Q 468 320 464 305" />
+    <path d="M 470 335 Q 465 320 468 305" />
+    <path d="M 480 335 Q 488 320 484 305" />
+    
+    <!-- Grass 4 -->
+    <path d="M 650 330 Q 645 315 648 300" />
+    <path d="M 660 330 Q 668 315 664 300" />
+    <path d="M 670 330 Q 665 315 668 300" />
+  </g>
+  
+  <!-- Decorative clouds -->
+  <g fill="#ffffff" opacity="0.7">
+    <ellipse cx="150" cy="80" rx="40" ry="25"/>
+    <ellipse cx="190" cy="95" rx="35" ry="20"/>
+    <ellipse cx="110" cy="100" rx="30" ry="18"/>
+    
+    <ellipse cx="550" cy="120" rx="45" ry="28"/>
+    <ellipse cx="600" cy="140" rx="40" ry="22"/>
+    <ellipse cx="500" cy="145" rx="35" ry="20"/>
+  </g>
+  
+  <!-- Butterflies -->
+  <g transform="translate(250, 150)">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="2" ry="8" fill="#333"/>
+    <!-- Left wings -->
+    <ellipse cx="-8" cy="-3" rx="8" ry="6" fill="#ff69b4" opacity="0.8"/>
+    <ellipse cx="-8" cy="3" rx="8" ry="6" fill="#ff1493" opacity="0.8"/>
+    <!-- Right wings -->
+    <ellipse cx="8" cy="-3" rx="8" ry="6" fill="#ff69b4" opacity="0.8"/>
+    <ellipse cx="8" cy="3" rx="8" ry="6" fill="#ff1493" opacity="0.8"/>
+  </g>
+  
+  <g transform="translate(700, 200)">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="2" ry="8" fill="#333"/>
+    <!-- Left wings -->
+    <ellipse cx="-8" cy="-3" rx="8" ry="6" fill="#ffeb3b" opacity="0.8"/>
+    <ellipse cx="-8" cy="3" rx="8" ry="6" fill="#fdd835" opacity="0.8"/>
+    <!-- Right wings -->
+    <ellipse cx="8" cy="-3" rx="8" ry="6" fill="#ffeb3b" opacity="0.8"/>
+    <ellipse cx="8" cy="3" rx="8" ry="6" fill="#fdd835" opacity="0.8"/>
+  </g>
+</svg>

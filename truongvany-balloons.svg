@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="800" height="220" viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg">
+
   <defs>
     <!-- Gradient cho chữ Trương Văn Ý -->
     <linearGradient id="nameGradient" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -23,38 +24,99 @@
     Trương Văn Ý
   </text>
 
-  <!-- Bong bóng 1 -->
+  <!-- Bong bóng 1 (bên trái) -->
   <g>
-    <circle cx="260" cy="150" r="16" fill="#ff6b6b" />
-    <line x1="260" y1="166" x2="260" y2="200" stroke="#555" stroke-width="1.2" />
+    <circle cx="0" cy="0" r="10" fill="#ff6b6b" />
+    <line x1="0" y1="10" x2="0" y2="35" stroke="#555" stroke-width="1.2" />
+    <!-- Di chuyển từ dưới chữ lên trên rồi biến mất -->
     <animateTransform attributeName="transform"
                       type="translate"
-                      values="0 40; 0 -40; 0 40"
-                      dur="5s"
+                      values="310 110; 280 40; 260 -20"
+                      keyTimes="0;0.7;1"
+                      dur="4s"
                       repeatCount="indefinite" />
+    <!-- Hiện lên rồi mờ dần -->
+    <animate attributeName="opacity"
+             values="0;1;1;0"
+             keyTimes="0;0.1;0.7;1"
+             dur="4s"
+             repeatCount="indefinite" />
   </g>
 
   <!-- Bong bóng 2 -->
   <g>
-    <circle cx="400" cy="155" r="18" fill="#ffd166" />
-    <line x1="400" y1="173" x2="400" y2="210" stroke="#555" stroke-width="1.2" />
+    <circle cx="0" cy="0" r="11" fill="#ffd166" />
+    <line x1="0" y1="10" x2="0" y2="35" stroke="#555" stroke-width="1.2" />
     <animateTransform attributeName="transform"
                       type="translate"
-                      values="0 45; 0 -35; 0 45"
-                      dur="5.5s"
-                      begin="0.8s"
+                      values="360 110; 340 35; 320 -25"
+                      keyTimes="0;0.7;1"
+                      dur="4.2s"
+                      begin="0.7s"
                       repeatCount="indefinite" />
+    <animate attributeName="opacity"
+             values="0;1;1;0"
+             keyTimes="0;0.1;0.7;1"
+             dur="4.2s"
+             begin="0.7s"
+             repeatCount="indefinite" />
   </g>
 
-  <!-- Bong bóng 3 -->
+  <!-- Bong bóng 3 (giữa) -->
   <g>
-    <circle cx="540" cy="150" r="16" fill="#4ecdc4" />
-    <line x1="540" y1="166" x2="540" y2="200" stroke="#555" stroke-width="1.2" />
+    <circle cx="0" cy="0" r="12" fill="#4ecdc4" />
+    <line x1="0" y1="10" x2="0" y2="35" stroke="#555" stroke-width="1.2" />
     <animateTransform attributeName="transform"
                       type="translate"
-                      values="0 42; 0 -38; 0 42"
-                      dur="6s"
+                      values="400 110; 400 30; 395 -30"
+                      keyTimes="0;0.7;1"
+                      dur="4.4s"
                       begin="1.4s"
                       repeatCount="indefinite" />
+    <animate attributeName="opacity"
+             values="0;1;1;0"
+             keyTimes="0;0.1;0.7;1"
+             dur="4.4s"
+             begin="1.4s"
+             repeatCount="indefinite" />
   </g>
+
+  <!-- Bong bóng 4 -->
+  <g>
+    <circle cx="0" cy="0" r="10" fill="#6c5ce7" />
+    <line x1="0" y1="10" x2="0" y2="35" stroke="#555" stroke-width="1.2" />
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      values="440 110; 460 35; 470 -25"
+                      keyTimes="0;0.7;1"
+                      dur="4.1s"
+                      begin="2.1s"
+                      repeatCount="indefinite" />
+    <animate attributeName="opacity"
+             values="0;1;1;0"
+             keyTimes="0;0.1;0.7;1"
+             dur="4.1s"
+             begin="2.1s"
+             repeatCount="indefinite" />
+  </g>
+
+  <!-- Bong bóng 5 (bên phải) -->
+  <g>
+    <circle cx="0" cy="0" r="11" fill="#ff9ff3" />
+    <line x1="0" y1="10" x2="0" y2="35" stroke="#555" stroke-width="1.2" />
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      values="490 110; 515 40; 535 -20"
+                      keyTimes="0;0.7;1"
+                      dur="4.3s"
+                      begin="2.8s"
+                      repeatCount="indefinite" />
+    <animate attributeName="opacity"
+             values="0;1;1;0"
+             keyTimes="0;0.1;0.7;1"
+             dur="4.3s"
+             begin="2.8s"
+             repeatCount="indefinite" />
+  </g>
+
 </svg>

@@ -1,7 +1,6 @@
 <div align="center">
-
-<!-- Text đổi màu với Capsule Render -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5,6,8,10,12,14,16,18,20&text=Trương%20Văn%20Ý&height=150&fontSize=50&fontAlignY=40&animation=twinkling" />
+<img src="https://capsule-render.vercel.app/api?type=transparent&color=gradient&customColorList=0,2,3,5,6,8,10,12,14,16,18,20&text=Trương%20Văn%20Ý&fontSize=60&fontColor=gradient&animation=twinkling" />
+</div>
 
 ###  `Fullstack Developer`  • `AI/ML Engineer` • `IoT Enthusiast`
 

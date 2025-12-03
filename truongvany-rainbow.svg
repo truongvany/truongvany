@@ -215,7 +215,9 @@
   <!-- 🌿 Cỏ đung đưa -->
   <!-- Cỏ 1 -->
   <g>
-    <path d="M 50 220 Q 48 200 50 180" stroke="#4CAF50" stroke-width="2" fill="none">
+     <line x1="0" y1="0" x2="-6" y2="-22" stroke="#4CAF50" stroke-width="2" />
+     <line x1="0" y1="0" x2="0" y2="-24" stroke="#66BB6A" stroke-width="2.2" />
+     <line x1="0" y1="0" x2="6" y2="-22" stroke="#4CAF50" stroke-width="2" />
       <animateTransform attributeName="transform"
                         type="rotate"
                         values="-5 50 220; 5 50 220; -5 50 220"

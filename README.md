@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <img src="[LINK_ẢNH_1](https://github.com/truongvany/truongvany/blob/main/a1.jpg)" alt="Trương Văn Ý 1" width="320" />
-  <img src="[LINK_ẢNH_2](https://github.com/truongvany/truongvany/blob/main/a2.jpg)" alt="Trương Văn Ý 2" width="320" />
+  <img src="a1.jpg" alt="Trương Văn Ý 1" width="320" />
+  <img src="https://github.com/truongvany/truongvany/blob/main/a2.jpg" alt="Trương Văn Ý 2" width="320" />
 </p>
 
 

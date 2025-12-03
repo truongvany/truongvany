@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🚀 TRƯƠNG VĂN Ý
+#  TRƯƠNG VĂN Ý
 
-### `< Fullstack Developer />` • `AI/ML Engineer` • `IoT Enthusiast`
+### `< Atomic Y />` • `Fullstack Developer`  • `AI/ML Engineer` • `IoT Enthusiast` 
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Building+Smart+Systems+%F0%9F%A7%A0;Web+%2B+AI+%2B+IoT+Integration+%E2%9A%A1;From+Ideas+to+Real+Products+%F0%9F%9A%80;Always+Learning+%26+Creating+%F0%9F%94%A5)](https://git.io/typing-svg)
 
@@ -228,7 +228,7 @@ Thùng rác thông minh với cảm biến
 
 <div align="center">
 
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://facebook.com)
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/AtomicY1608)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:truongvany1608@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](#)
 [![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=white)](#)
@@ -251,7 +251,7 @@ Thùng rác thông minh với cảm biến
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
 
-⭐️ From [truongvany](https://github.com/truongvany) | Made with ❤️ and ☕
+⭐️ From [truongvany](https://github.com/truongvany) | 
 
 🎓 Information Technology Student @ UED - Da Nang
 
